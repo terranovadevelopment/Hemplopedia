@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "description": "18 original subject-specific Algae articles; educational overviews pending source-by-source verification.",
+  "articles": {
+    "23": {
+      "heading": "Algae: Biology and Industrial Potential",
+      "paragraphs": [
+        "Algae are a diverse group of photosynthetic organisms found in freshwater, marine, and other moist environments. They range from microscopic single cells to large seaweeds. Unlike hemp, algae are not one crop species, and their cultivation methods and products vary enormously.",
+        "Microalgae can be cultivated in ponds or closed photobioreactors for pigments, oils, proteins, and specialty compounds. Macroalgae are harvested or farmed for food, hydrocolloids, fertilizer ingredients, and other materials.",
+        "Algae and hemp can be complementary feedstocks in a bio-based economy, but their yields, land use, processing, and product economics must be evaluated separately."
+      ]
+    },
+    "24": {
+      "heading": "Algae in Animal Feed",
+      "paragraphs": [
+        "Selected algae and algae-derived ingredients are used in animal nutrition as sources of protein, pigments, or fatty acids. Certain microalgae supply omega-3 oils, while other species are valued for pigments used in aquaculture and poultry feeds.",
+        "Feed suitability depends on species, cultivation conditions, processing, digestibility, and the animal being fed. Cell walls can limit nutrient availability, and some algal biomass may accumulate contaminants or contain undesirable compounds.",
+        "Feed formulations require nutrient analysis, quality assurance, and compliance with animal-feed rules. The nutritional value of one tested algal ingredient should not be generalized to all algae."
+      ]
+    },
+    "25": {
+      "heading": "Algae in Agricultural Systems",
+      "paragraphs": [
+        "Algae can contribute to agriculture through soil amendments, microbial products, and cultivation systems that recover nutrients from certain waste streams. Cyanobacteria and other photosynthetic microorganisms are studied for their interactions with soil and crops.",
+        "Some products contain algae extracts promoted as biostimulants, while others use dried algal biomass as a nutrient source. Effects on plant growth vary with species, extraction method, dosage, soil conditions, and crop type.",
+        "Field trials and nutrient analyses are needed to determine whether a particular algal product improves crop performance. Claims of universal fertilizer replacement or guaranteed yield increases are not justified."
+      ]
+    },
+    "26": {
+      "heading": "Producing Biofuels from Algae",
+      "paragraphs": [
+        "Microalgae can produce lipids and carbohydrates that may be converted into biodiesel, renewable fuels, or fermentation feedstocks. Their potential attraction is high productivity under suitable conditions without relying on conventional food crops.",
+        "Cultivation requires water, nutrients, carbon dioxide, and energy for circulation or aeration. Harvesting dilute cultures, removing water, extracting oils, and refining fuel can be expensive and energy intensive.",
+        "Commercial viability depends on full life-cycle energy use, nutrient recycling, productivity, and fuel markets. Many promising laboratory results have not translated into low-cost bulk fuel production."
+      ]
+    },
+    "27": {
+      "heading": "Algae-Derived Bioplastics",
+      "paragraphs": [
+        "Algal biomass can supply polymers, fillers, or precursor chemicals for bio-based plastics. Some materials incorporate seaweed-derived polysaccharides, while others use algae as a feedstock for fermentation or blend dried biomass with conventional polymers.",
+        "Properties such as strength, moisture resistance, thermal stability, and processability depend on the precise formulation. A product containing algae is not necessarily biodegradable, compostable, or free of fossil-derived plastic.",
+        "Manufacturers should disclose the material composition and substantiate end-of-life claims with appropriate testing. Algae-based packaging and composites remain an active area of materials development."
+      ]
+    },
+    "28": {
+      "heading": "Algae and Carbon Sequestration",
+      "paragraphs": [
+        "Photosynthetic algae absorb carbon dioxide while growing and incorporate carbon into biomass. This uptake is part of the biological carbon cycle, but it does not automatically amount to long-term carbon sequestration.",
+        "If algae are consumed, decomposed, or burned as fuel, much of the absorbed carbon can return to the atmosphere. Durable storage requires a pathway that keeps carbon isolated for a meaningful period, with emissions from cultivation and processing included.",
+        "Projects claiming carbon removal need transparent measurement, reporting, and verification. Carbon uptake rates alone are insufficient evidence of net atmospheric removal."
+      ]
+    },
+    "29": {
+      "heading": "Algae in Cosmetics and Skincare",
+      "paragraphs": [
+        "Seaweed extracts and microalgal ingredients appear in moisturizers, masks, cleansers, and other personal-care products. They may provide polysaccharides, pigments, oils, or ingredients that affect a formulation's texture and moisture retention.",
+        "The properties of an extract depend on algal species, extraction conditions, concentration, and the finished formulation. Laboratory antioxidant activity does not by itself establish visible skin benefits or treatment of a medical condition.",
+        "Safety evaluation should consider contaminants, preservation, irritation potential, and intended use. Product-specific clinical evidence is needed for strong efficacy claims."
+      ]
+    },
+    "30": {
+      "heading": "Engineered Algae and Biotechnology",
+      "paragraphs": [
+        "Researchers can modify or select algae to produce particular molecules, improve growth under controlled conditions, or alter metabolic pathways. Approaches include conventional strain selection, mutagenesis, and genetic engineering.",
+        "Possible applications include specialty oils, pigments, enzymes, pharmaceuticals, and research tools. Biological performance in a laboratory vessel may differ substantially from performance in large outdoor ponds or industrial reactors.",
+        "Engineered strains require containment and biosafety assessment appropriate to the organism and intended use. Regulation, stability of production, and downstream purification can be major development challenges."
+      ]
+    },
+    "31": {
+      "heading": "Algae-Based Fertilizers",
+      "paragraphs": [
+        "Algal biomass and extracts can be processed into soil amendments or fertilizer products. Their nutrient content may include nitrogen, phosphorus, potassium, trace elements, and organic compounds, depending on species and growing conditions.",
+        "Some algal products are sold as biostimulants rather than as primary nutrient sources. Extracts may influence plant responses without providing enough macronutrients to meet crop demand. Salinity and contaminant levels can also matter.",
+        "A sound evaluation compares nutrient content, application rates, crop response, and cost with established fertilizer practices. Fertilizer and biostimulant claims are subject to differing rules across jurisdictions."
+      ]
+    },
+    "32": {
+      "heading": "High-Yield Algae Cultivation",
+      "paragraphs": [
+        "Some microalgae can grow rapidly under favorable light, temperature, and nutrient conditions, prompting interest in high-yield biomass production. Productivity is typically measured per reactor volume or per land area over time.",
+        "Reported yields depend on whether they come from laboratory cultures, pilot plants, or year-round commercial operation. Light limitation, contamination, evaporation, temperature swings, and harvesting losses can reduce real-world output.",
+        "High productivity should be evaluated alongside energy consumption, nutrient inputs, operating costs, and usable product yield. Comparing algae with field crops such as hemp requires consistent boundaries and measurement units."
+      ]
+    },
+    "33": {
+      "heading": "Algae and Immune-Support Claims",
+      "paragraphs": [
+        "Algae-derived products sometimes contain polysaccharides, pigments, or fatty acids studied for effects on immune signaling. Laboratory and animal experiments have explored these mechanisms, but findings are highly ingredient-specific.",
+        "Evidence for improved immune health in humans varies and is often limited. Claims about 'boosting immunity' can be misleading because immune function is complex and stronger immune activation is not always beneficial.",
+        "Consumers should not treat algae supplements as substitutes for vaccination, adequate nutrition, or medical care. Clinical claims require well-designed human studies of the specific product and dose."
+      ]
+    },
+    "34": {
+      "heading": "Algae as Model Organisms",
+      "paragraphs": [
+        "Certain algae are widely used in biological research because they are relatively easy to cultivate and offer insight into photosynthesis, cell biology, and metabolism. Chlamydomonas reinhardtii is a prominent single-celled green-alga model.",
+        "Scientists use model algae to investigate chloroplast function, light responses, motility, genetic regulation, and the production of useful compounds. Other species are chosen to study diatoms, marine ecosystems, or harmful algal blooms.",
+        "Results from model organisms can reveal fundamental biology, but they do not automatically predict the performance of industrial algal strains or field-scale cultivation."
+      ]
+    },
+    "35": {
+      "heading": "Omega-3 Fatty Acids from Algae",
+      "paragraphs": [
+        "Certain marine microalgae produce the long-chain omega-3 fatty acids DHA and EPA. These organisms are an important source of omega-3s in aquatic food webs, and cultivated algae can provide oils without harvesting fish.",
+        "Algal oil is used in some foods, infant formulas, and dietary supplements. Products differ in DHA and EPA content, oxidation stability, extraction methods, and quality controls.",
+        "Nutrition claims should refer to the actual fatty-acid composition and applicable dietary guidance. People considering supplements should account for individual needs, medication interactions, and product quality."
+      ]
+    },
+    "36": {
+      "heading": "Oxygen Production by Algae",
+      "paragraphs": [
+        "Photosynthetic algae release oxygen when they use light energy to convert carbon dioxide and water into organic matter. Across aquatic environments, microscopic photosynthetic organisms make a major contribution to global oxygen production.",
+        "Oxygen release varies with light, temperature, nutrient supply, and organism abundance. Algae also respire, and decomposition of algal blooms can consume dissolved oxygen, sometimes harming aquatic life.",
+        "An algal bloom is therefore not automatically beneficial for water quality. The ecological effect depends on species composition, nutrient loading, water circulation, and subsequent decomposition."
+      ]
+    },
+    "37": {
+      "heading": "Algae in Pharmaceutical Research",
+      "paragraphs": [
+        "Algae are investigated as sources of biologically active molecules and as platforms for producing specialized compounds. Researchers study pigments, polysaccharides, lipids, and other metabolites for potential therapeutic applications.",
+        "Discovering activity in a cell assay is only an early research step. Pharmaceutical development requires characterization, toxicity testing, reproducible manufacturing, clinical trials, and regulatory review.",
+        "It is important to distinguish approved medicines from experimental algae-derived compounds and from supplements marketed with medical-sounding claims. Most promising laboratory discoveries do not become licensed drugs."
+      ]
+    },
+    "38": {
+      "heading": "Nutritional Qualities of Edible Algae",
+      "paragraphs": [
+        "Edible seaweeds and selected microalgae can contribute minerals, protein, fiber-like polysaccharides, pigments, or fatty acids to the diet. Nutrient profiles vary greatly among species and processing methods.",
+        "Spirulina products, for example, are typically made from cultivated cyanobacteria rather than true algae in the strict taxonomic sense. Some seaweeds are very high in iodine, while certain products may carry contaminant risks if quality controls are inadequate.",
+        "The label 'superfood' has no single scientific definition. Nutritional value should be assessed from verified composition, serving size, dietary context, and product safety rather than broad marketing language."
+      ]
+    },
+    "39": {
+      "heading": "Using Algae in Wastewater Treatment",
+      "paragraphs": [
+        "Algae-based wastewater systems aim to remove or recover nutrients while producing biomass. Under suitable conditions, algae take up dissolved nitrogen and phosphorus as they grow, sometimes working alongside bacteria.",
+        "Treatment ponds and photobioreactors must manage light penetration, retention time, temperature, contamination, and biomass separation. The resulting biomass may contain pathogens, metals, or other pollutants, limiting its safe reuse.",
+        "Performance should be measured by effluent quality and compliance with discharge standards, not merely by algal growth. Integration with conventional treatment may offer benefits, but design and operating conditions are critical."
+      ]
+    },
+    "40": {
+      "heading": "Algae and Water Purification",
+      "paragraphs": [
+        "Algae can participate in biological processes that alter nutrient levels and certain dissolved substances in water. Algal biomass and algal-derived materials are also researched as biosorbents for selected contaminants.",
+        "These approaches have limitations. Algal growth can increase turbidity, create taste or odor problems, and in some circumstances contribute to harmful blooms. Removing algae and verifying treated-water quality are essential parts of any treatment system.",
+        "Algae-based treatment should not be presented as a stand-alone guarantee of safe drinking water. Potable-water systems require validated treatment barriers and testing against applicable microbial and chemical standards."
+      ]
+    }
+  }
+}
