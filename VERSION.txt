@@ -1,3 +1,1 @@
-Hemplopedia Version 1.1
-GitHub/Render static website upload package
-2026-11-12
+Hemplopedia v1.4 — photographic hemp banner, category photos, clickable topic thumbnails, wide landscape topic pages.
