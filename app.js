@@ -8,7 +8,7 @@ const photoQueries={
 'Agricultural':'industrial hemp field agriculture','Algae':'green algae microscopy photograph','Automotive':'automobile manufacturing factory','Bamboo':'bamboo forest','Building Materials':'hempcrete construction building','Business':'industrial hemp manufacturing','Clothing':'hemp fabric clothing','Consumer Textiles':'natural textile fabric weaving','Environmental':'hemp field nature','Flax':'flax flowers field','Food':'hemp seeds food','Free Energy':'renewable solar wind energy','Fresh Water':'freshwater river landscape','Health Care':'medical research laboratory','Housing':'hempcrete house construction','Industrial Products':'industrial hemp fiber','Industrial Textiles':'industrial textile weaving','Information':'library books research','Kenaf':'kenaf hibiscus cannabinus plant','Legal':'courthouse law','Marijuana':'cannabis plant photograph','Other':'hemp plant','Paper':'handmade paper sheets','Personal Hygiene':'natural soap products','Pets and Livestock':'farm sheep livestock','Plastics':'bioplastic material','Processing challenges':'hemp fiber processing machinery','Uses Flowers':'hemp cannabis flowers','Uses Leaves':'hemp cannabis leaves','Uses Roots':'plant roots soil','Uses Seeds':'hemp seeds closeup','Uses Stalk':'hemp stalk fiber'
 };
 const photoCache=new Map(), pendingPhotos=new Map();
-const badTitle=/\\b(icon|logo|diagram|drawing|illustration|painting|map|symbol|chart|poster|coat of arms|flag|svg|clipart|render|artwork|vector)\\b/i;
+const badTitle=/\b(icon|logo|diagram|drawing|illustration|painting|map|symbol|chart|poster|coat of arms|flag|svg|clipart|render|artwork|vector)\b/i;
 function photoQuery(category,topic){if(!topic)return photoQueries[category]||'industrial hemp plant';const t=topic.toLowerCase().replace(/^hemp /,'');return t.includes('hemp')||t.includes('cannabis')?t+' photograph':'hemp '+t+' photograph';}
 async function getPhoto(query){
  if(photoCache.has(query))return photoCache.get(query);
@@ -18,8 +18,8 @@ async function getPhoto(query){
    const url='https://commons.wikimedia.org/w/api.php?'+new URLSearchParams({action:'query',generator:'search',gsrsearch:'filetype:bitmap '+query,gsrnamespace:'6',gsrlimit:'15',prop:'imageinfo',iiprop:'url|mime|extmetadata',iiurlwidth:'1100',format:'json',origin:'*'});
    const response=await fetch(url,{mode:'cors'});if(!response.ok)throw Error('photo search');
    const data=await response.json();const pages=Object.values(data.query?.pages||{});
-   const matches=pages.filter(p=>{const i=p.imageinfo?.[0];return i&&/^image\\/(jpeg|png|webp)$/.test(i.mime||'')&&!badTitle.test(p.title||'')&&i.thumburl;});
-   const match=matches.find(p=>/\\b(photo|hemp|cannabis|field|plant|fiber|bamboo|flax)\\b/i.test(p.title))||matches[0];
+   const matches=pages.filter(p=>{const i=p.imageinfo?.[0];return i&&/^image\/(jpeg|png|webp)$/.test(i.mime||'')&&!badTitle.test(p.title||'')&&i.thumburl;});
+   const match=matches.find(p=>/\b(photo|hemp|cannabis|field|plant|fiber|bamboo|flax)\b/i.test(p.title))||matches[0];
    if(!match)throw Error('no suitable photo');
    const info=match.imageinfo[0],metadata=info.extmetadata||{};
    const result={url:info.thumburl,description:match.title.replace(/^File:/,''),source:info.descriptionurl||'https://commons.wikimedia.org/',credit:(metadata.Artist?.value||'').replace(/<[^>]*>/g,'').slice(0,160),license:(metadata.LicenseShortName?.value||'Wikimedia Commons')};
