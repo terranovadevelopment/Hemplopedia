@@ -2,26 +2,56 @@ const state={items:[],categories:[],category:null,query:''};
 const $=id=>document.getElementById(id);
 const escapeHTML=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const titleCase=s=>String(s).replace(/\b\w/g,c=>c.toUpperCase());
-const icons={"Agricultural":"🌾","Algae":"🧫","Automotive":"🚙","Bamboo":"🎋","Building Materials":"🧱","Business":"🏢","Clothing":"👕","Consumer Textiles":"🧵","Environmental":"🌍","Flax":"🌼","Food":"🥗","Free Energy":"⚡","Fresh Water":"💧","Health Care":"🩺","Housing":"🏡","Industrial Products":"⚙️","Industrial Textiles":"🪢","Information":"📚","Kenaf":"🌿","Legal":"⚖️","Marijuana":"🍃","Other":"🔬","Paper":"📜","Personal Hygiene":"🧼","Pets and Livestock":"🐑","Plastics":"♻️","Processing challenges":"🏭","Uses Flowers":"🌸","Uses Leaves":"🍀","Uses Roots":"🌱","Uses Seeds":"🫘","Uses Stalk":"🎍"};
-const iconFor=c=>icons[c]||'🌿';
-const palettes=[['#e1f2d9','#679b75'],['#e4f0ec','#448d80'],['#f4eadb','#a58a64'],['#e8e7f3','#8581ad'],['#e5eee1','#638963'],['#e7eef6','#668aa8']];
-const paletteFor=s=>palettes[Array.from(s).reduce((a,c)=>a+c.charCodeAt(0),0)%palettes.length];
+// Photographic images are retrieved from Wikimedia Commons under their original licenses.
+// Search is lazy for category cards and on demand for individual topics.
+const photoQueries={
+'Agricultural':'industrial hemp field agriculture','Algae':'green algae microscopy photograph','Automotive':'automobile manufacturing factory','Bamboo':'bamboo forest','Building Materials':'hempcrete construction building','Business':'industrial hemp manufacturing','Clothing':'hemp fabric clothing','Consumer Textiles':'natural textile fabric weaving','Environmental':'hemp field nature','Flax':'flax flowers field','Food':'hemp seeds food','Free Energy':'renewable solar wind energy','Fresh Water':'freshwater river landscape','Health Care':'medical research laboratory','Housing':'hempcrete house construction','Industrial Products':'industrial hemp fiber','Industrial Textiles':'industrial textile weaving','Information':'library books research','Kenaf':'kenaf hibiscus cannabinus plant','Legal':'courthouse law','Marijuana':'cannabis plant photograph','Other':'hemp plant','Paper':'handmade paper sheets','Personal Hygiene':'natural soap products','Pets and Livestock':'farm sheep livestock','Plastics':'bioplastic material','Processing challenges':'hemp fiber processing machinery','Uses Flowers':'hemp cannabis flowers','Uses Leaves':'hemp cannabis leaves','Uses Roots':'plant roots soil','Uses Seeds':'hemp seeds closeup','Uses Stalk':'hemp stalk fiber'
+};
+const photoCache=new Map(), pendingPhotos=new Map();
+const badTitle=/\\b(icon|logo|diagram|drawing|illustration|painting|map|symbol|chart|poster|coat of arms|flag|svg|clipart|render|artwork|vector)\\b/i;
+function photoQuery(category,topic){if(!topic)return photoQueries[category]||'industrial hemp plant';const t=topic.toLowerCase().replace(/^hemp /,'');return t.includes('hemp')||t.includes('cannabis')?t+' photograph':'hemp '+t+' photograph';}
+async function getPhoto(query){
+ if(photoCache.has(query))return photoCache.get(query);
+ if(pendingPhotos.has(query))return pendingPhotos.get(query);
+ const promise=(async()=>{
+  try{
+   const url='https://commons.wikimedia.org/w/api.php?'+new URLSearchParams({action:'query',generator:'search',gsrsearch:'filetype:bitmap '+query,gsrnamespace:'6',gsrlimit:'15',prop:'imageinfo',iiprop:'url|mime|extmetadata',iiurlwidth:'1100',format:'json',origin:'*'});
+   const response=await fetch(url,{mode:'cors'});if(!response.ok)throw Error('photo search');
+   const data=await response.json();const pages=Object.values(data.query?.pages||{});
+   const matches=pages.filter(p=>{const i=p.imageinfo?.[0];return i&&/^image\\/(jpeg|png|webp)$/.test(i.mime||'')&&!badTitle.test(p.title||'')&&i.thumburl;});
+   const match=matches.find(p=>/\\b(photo|hemp|cannabis|field|plant|fiber|bamboo|flax)\\b/i.test(p.title))||matches[0];
+   if(!match)throw Error('no suitable photo');
+   const info=match.imageinfo[0],metadata=info.extmetadata||{};
+   const result={url:info.thumburl,description:match.title.replace(/^File:/,''),source:info.descriptionurl||'https://commons.wikimedia.org/',credit:(metadata.Artist?.value||'').replace(/<[^>]*>/g,'').slice(0,160),license:(metadata.LicenseShortName?.value||'Wikimedia Commons')};
+   photoCache.set(query,result);return result;
+  }catch(err){photoCache.set(query,null);return null;}
+ })();pendingPhotos.set(query,promise);try{return await promise}finally{pendingPhotos.delete(query)}
+}
 function art(category,topic='',small=false){
- const [light,dark]=paletteFor(category),icon=iconFor(category);
- const label=topic||category;
- const el=document.createElement('div');el.className='art '+(small?'art-small':'');
- el.style.setProperty('--art-light',light);el.style.setProperty('--art-dark',dark);
- el.innerHTML='<span class="art-orbit"></span><span class="art-icon" aria-hidden="true">'+icon+'</span><span class="art-caption">'+escapeHTML(label)+'</span>';
- el.setAttribute('role','img');el.setAttribute('aria-label','Illustration representing '+label);
+ const label=topic||category,query=photoQuery(category,topic);
+ const el=document.createElement('div');el.className='art photo-art '+(small?'art-small':'');
+ el.setAttribute('role','img');el.setAttribute('aria-label','Photograph related to '+label);
+ el.innerHTML='<div class="photo-placeholder" aria-hidden="true"></div><span class="photo-label">'+escapeHTML(label)+'</span>';
+ el.dataset.photoQuery=query;el.dataset.category=category;
  return el;
 }
+async function loadArt(el){
+ if(!el||el.dataset.loaded)return;el.dataset.loaded='pending';
+ let photo=await getPhoto(el.dataset.photoQuery);
+ if(!photo&&el.dataset.photoQuery!==photoQuery(el.dataset.category))photo=await getPhoto(photoQuery(el.dataset.category));
+ if(!el.isConnected)return;
+ if(photo){const img=document.createElement('img');img.src=photo.url;img.alt=photo.description;img.loading='lazy';img.decoding='async';img.referrerPolicy='no-referrer';img.onerror=()=>{img.remove();el.classList.add('photo-unavailable');};el.prepend(img);el.classList.add('has-photo');el.title=photo.description+' — '+photo.license+' (Wikimedia Commons)';}
+ else el.classList.add('photo-unavailable');
+}
+const photoObserver='IntersectionObserver' in window?new IntersectionObserver(entries=>{for(const entry of entries){if(entry.isIntersecting){photoObserver.unobserve(entry.target);loadArt(entry.target);}}},{rootMargin:'250px'}):null;
+function watchArt(el){if(photoObserver)photoObserver.observe(el);else loadArt(el)}
 function show(view){for(const el of document.querySelectorAll('[data-view]'))el.hidden=el.dataset.view!==view;window.scrollTo({top:0,behavior:'instant'});}
 function renderCategories(){
  const root=$('categoryGrid');root.replaceChildren();
- for(const c of state.categories){const b=document.createElement('button');b.className='category-card';b.append(art(c.name,'',true));
+ for(const c of state.categories){const b=document.createElement('button');b.className='category-card';const picture=art(c.name,'',true);b.append(picture);watchArt(picture);
  const name=document.createElement('strong');name.textContent=c.name;const count=document.createElement('span');count.textContent=state.items.filter(x=>x.category===c.name).length+' topics →';b.append(name,count);b.onclick=()=>openCategory(c.name);root.append(b);}
 }
-function openCategory(name){state.category=name;$('categoryName').textContent=name;const a=state.items.filter(x=>x.category===name);$('categoryCountLabel').textContent=a.length+' topics';$('categoryHero').replaceChildren(art(name));$('topicSearch').value='';renderTopicList();history.replaceState(null,'','#category-'+encodeURIComponent(name));show('category');}
+function openCategory(name){state.category=name;$('categoryName').textContent=name;const a=state.items.filter(x=>x.category===name);$('categoryCountLabel').textContent=a.length+' topics';const picture=art(name);$('categoryHero').replaceChildren(picture);watchArt(picture);$('topicSearch').value='';renderTopicList();history.replaceState(null,'','#category-'+encodeURIComponent(name));show('category');}
 function renderTopicList(){const q=$('topicSearch').value.trim().toLowerCase();const list=state.items.filter(x=>x.category===state.category&&x.topic.toLowerCase().includes(q));const root=$('topicList');root.replaceChildren();for(const r of list){const b=document.createElement('button');b.className='topic-row';b.innerHTML='<span>'+escapeHTML(titleCase(r.topic))+'</span><span class="row-arrow">View article →</span>';b.onclick=()=>openTopic(r.id);root.append(b)}if(!list.length)root.textContent='No matching topics in this category.';}
 function docFor(r){const t=titleCase(r.topic);const category=r.category;
  const intro='This Hemplopedia entry introduces '+t+' as a subject within '+category+'. It provides a starting point for understanding the terminology, exploring applications, and finding current research and examples.';
@@ -31,7 +61,7 @@ function docFor(r){const t=titleCase(r.topic);const category=r.category;
 }
 function openTopic(id){const r=state.items.find(x=>x.id===Number(id));if(!r)return;state.category=r.category;
  $('articleCategory').textContent=r.category;$('articleTitle').textContent=titleCase(r.topic);
- $('articleArt').replaceChildren(art(r.category,titleCase(r.topic)));
+ const picture=art(r.category,titleCase(r.topic));$('articleArt').replaceChildren(picture);watchArt(picture);
  $('articleDocument').innerHTML=docFor(r);
  $('articleSource').textContent='Original Hemplopedia book: page '+r.source_page+'. Expanded introductory document; independently verified research is still being developed.';
  const links=$('articleLinks');links.replaceChildren();for(const [key,label] of [['articles_url','Articles ↗'],['images_url','Images ↗'],['videos_url','Videos ↗']]){if(!r[key])continue;const a=document.createElement('a');a.href=r[key];a.textContent=label;a.target='_blank';a.rel='noopener noreferrer';links.append(a);}
