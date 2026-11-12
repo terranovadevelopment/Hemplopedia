@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "description": "Three original Free Energy articles, distinguishing renewable energy, unsupported perpetual-motion claims, and Nikola Tesla's documented engineering work. Educational drafts requiring source-by-source verification.",
+  "articles": {
+    "201": {
+      "heading": "Free Energy: What the Term Really Means",
+      "paragraphs": [
+        "The phrase free energy is used in several different ways. In everyday discussions, it can refer to sunlight, wind, flowing water, or other naturally replenished energy sources that do not require purchasing fuel. In physics, however, energy is conserved: a device cannot create usable energy from nothing.",
+        "Renewable-energy equipment converts energy already present in the environment. Solar panels convert sunlight into electricity; wind turbines capture kinetic energy in moving air; and hydroelectric systems convert energy associated with flowing or falling water. These technologies require equipment, land or space, maintenance, and sometimes storage or grid connections, so the electricity is not literally cost-free.",
+        "Thermodynamics also uses the term free energy in precise expressions such as Gibbs free energy, which describes the capacity of a system to perform useful work under specified conditions. That scientific concept does not support perpetual-motion machines. Evaluating any proposed energy system requires identifying its input, output, conversion efficiency, and full lifecycle cost."
+      ]
+    },
+    "202": {
+      "heading": "Free Energy Devices: Engineering Claims and Reality",
+      "paragraphs": [
+        "Devices marketed as free-energy generators sometimes claim to produce more electrical or mechanical energy than they consume. Proposed designs may feature magnets, rotating wheels, coils, batteries, or unconventional electrical circuits. Such claims must be evaluated with careful measurements rather than promotional demonstrations.",
+        "A permanent magnet can exert forces, but it is not an inexhaustible fuel source. Motors and generators convert energy between electrical and mechanical forms and experience losses through resistance, friction, heat, and other processes. A machine that continuously delivers net energy without an external source would contradict well-established conservation principles; no independently validated device has overturned those principles.",
+        "Practical alternatives include efficient motors, heat pumps, solar panels, wind turbines, energy recovery, and battery storage. Some systems may appear self-powered because an external source is hidden or overlooked, such as sunlight, temperature differences, stored chemical energy, or an electrical connection. A credible demonstration must disclose all inputs, measure sustained output under load, and permit independent replication."
+      ]
+    },
+    "203": {
+      "heading": "Nikola Tesla's Work in Electricity and Wireless Technology",
+      "paragraphs": [
+        "Nikola Tesla was an inventor and electrical engineer whose work helped develop alternating-current power systems. His contributions included polyphase AC motor concepts, induction-motor development, high-frequency electrical experiments, and inventions associated with resonant transformers commonly called Tesla coils.",
+        "Tesla investigated wireless transmission of signals and energy, including ambitious projects such as the Wardenclyffe tower. These experiments are historically important, but they should not be confused with proof that electricity can be generated without an energy source. Wireless power transfer moves energy from a transmitter to a receiver and still requires an input supply, while efficiency and transmission distance impose practical limitations.",
+        "Tesla's legacy is best understood through documented inventions, patents, engineering demonstrations, and the subsequent development of electric-power technology. Popular stories sometimes attribute limitless-energy machines to him without supporting evidence. Studying his actual work reveals remarkable innovation without requiring violations of the laws of thermodynamics."
+      ]
+    }
+  }
+}
