@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "description": "10 original Industrial Textiles articles for Hemplopedia; educational drafts pending source-by-source and application-specific verification.",
+  "articles": {
+    "260": {
+      "heading": "Hemp Agro-Fiber: Agricultural and Industrial Uses",
+      "paragraphs": [
+        "Agro-fiber refers to fibrous materials obtained from agricultural crops and residues. Hemp stalks provide long bast fibers from the outer stem and woody hurd from the inner core, giving processors two distinct material streams for industrial use.",
+        "Bast fibers may be cleaned, aligned, and converted into yarns, nonwoven mats, or reinforcement for composites. Hurd can be processed for animal bedding, absorbents, and certain building materials. Harvest timing, retting, decortication, and storage conditions strongly influence usable quality.",
+        "An agro-fiber industry requires reliable grading standards and nearby processing capacity. The environmental value of hemp fiber depends on crop inputs, transport, manufacturing energy, product lifespan, and end-of-life handling rather than plant origin alone."
+      ]
+    },
+    "261": {
+      "heading": "Hemp Fibers in Brake Linings: Research and Safety",
+      "paragraphs": [
+        "Brake linings are friction materials engineered to slow moving vehicles by converting kinetic energy into heat. Researchers have explored natural fibers, including hemp, as reinforcement or filler in some composite friction-material formulations.",
+        "A brake lining must maintain predictable friction under repeated heating, resist wear and cracking, and avoid damaging mating surfaces. Its performance depends on the entire formulation, including binders, abrasives, lubricating constituents, and processing conditions; hemp fiber by itself is not a brake pad.",
+        "Automotive braking is safety-critical. Hemp-containing friction materials require rigorous dynamometer, durability, thermal, and regulatory testing before use, and experimental formulations should never be substituted for approved replacement parts."
+      ]
+    },
+    "262": {
+      "heading": "Hemp Canvas: Heavy-Duty Woven Fabric",
+      "paragraphs": [
+        "Canvas is a durable, relatively heavy woven fabric used for bags, workwear, covers, upholstery, and other demanding applications. Hemp bast fibers can be spun into yarn and woven into canvas, either alone or blended with cotton or other fibers.",
+        "Fabric strength and abrasion resistance depend on yarn quality, weave, fabric weight, finishing, and construction details. Hemp canvas may be waxed or coated for water resistance, but untreated woven fabric is not inherently waterproof.",
+        "Designers should select canvas according to tensile strength, tear resistance, shrinkage, weather exposure, and cleaning requirements. Claims that all hemp canvas outlasts conventional canvas require direct comparisons of finished fabrics."
+      ]
+    },
+    "263": {
+      "heading": "Hemp Carpets and Floor Coverings",
+      "paragraphs": [
+        "Hemp fibers can be woven or blended into rugs, carpets, mats, and backing materials. Their texture and appearance can suit natural-looking floor coverings, while combinations with other fibers allow manufacturers to adjust softness and resilience.",
+        "Carpet performance depends on pile construction, yarn twist, backing, adhesives, stain treatment, and abrasion resistance. Plant fibers can absorb moisture, so installation conditions and cleaning methods must be considered carefully.",
+        "Hemp carpeting is not automatically stainproof, moldproof, or appropriate for damp locations. Buyers should compare wear ratings, emissions information, maintenance instructions, and the complete product's recyclability."
+      ]
+    },
+    "264": {
+      "heading": "Hemp-Fiber Composite Parts",
+      "paragraphs": [
+        "Hemp fibers can reinforce polymer composites used in vehicle interiors, furniture, equipment housings, and selected consumer goods. Manufacturers combine fibers with thermoplastic or thermoset matrices to form lightweight components with tailored properties.",
+        "Fiber length, orientation, moisture content, bonding to the matrix, and molding conditions affect stiffness, strength, impact response, and dimensional stability. Hemp composites may be blended with glass or other reinforcements to meet demanding specifications.",
+        "Composite parts must be evaluated for their exact operating environment, including heat, humidity, fatigue, and fire exposure. Natural-fiber reinforcement does not guarantee that the finished part is biodegradable or suitable for structural loads."
+      ]
+    },
+    "265": {
+      "heading": "Molded Parts Made with Hemp Fibers",
+      "paragraphs": [
+        "Hemp fibers can be mixed with polymers and formed into molded products through compression molding, injection molding, or other composite-processing methods. Potential applications include interior panels, containers, housings, and nonstructural components.",
+        "Short-fiber formulations can flow into complex molds, while longer-fiber mats may be compression-molded into larger panels. Manufacturers must manage fiber dispersion, processing temperatures, moisture, and adhesion to prevent voids or inconsistent properties.",
+        "A molded hemp product's performance depends on the resin and manufacturing process as much as the plant fiber. Commercial viability requires repeatable quality, tooling compatibility, cost control, and testing against application-specific standards."
+      ]
+    },
+    "266": {
+      "heading": "Hemp Nets: Traditional and Modern Applications",
+      "paragraphs": [
+        "Hemp cordage has historically been used to make nets for fishing, cargo handling, agriculture, and other purposes. Net construction involves twisting or braiding yarns into cord and tying or forming a mesh suited to the intended load.",
+        "Natural-fiber nets can offer useful handling characteristics but may absorb water, change dimensions, or deteriorate during prolonged wet exposure. Mesh size, knot strength, abrasion, and the quality of the original cordage govern performance.",
+        "Modern synthetic nets often provide different durability and weight characteristics. Hemp nets may be attractive where repairability or natural-fiber content matters, but safety-critical lifting and marine uses require verified load ratings and maintenance."
+      ]
+    },
+    "267": {
+      "heading": "Hemp Rope: Fiber, Construction, and Strength",
+      "paragraphs": [
+        "Hemp rope is made by extracting bast fibers, preparing them into yarns, and twisting or braiding those yarns into cordage. Historically, hemp was important for ropes used in shipping, agriculture, and general utility work.",
+        "Rope performance depends on fiber quality, yarn preparation, construction, diameter, moisture, and wear. Natural hemp rope can be strong for its weight, but it may shrink or weaken after repeated wetting, abrasion, or biological deterioration.",
+        "Working-load limits must come from the specific rope manufacturer and relevant safety standards. Hemp rope should not be used for climbing, fall protection, or overhead lifting unless expressly certified for that application."
+      ]
+    },
+    "268": {
+      "heading": "Hemp Tarpaulins and Protective Covers",
+      "paragraphs": [
+        "Tarpaulins are large sheets used to cover equipment, crops, cargo, or work areas. Hemp canvas can serve as a base fabric for certain covers, particularly when strength, repairability, and a traditional textile appearance are desired.",
+        "Untreated hemp fabric generally allows some water penetration, so weather-resistant tarps may require wax, coatings, laminates, or tightly engineered construction. These treatments influence weight, flexibility, ultraviolet resistance, breathability, and end-of-life options.",
+        "A hemp tarp should be selected for the expected wind, rain, sunlight, abrasion, and storage conditions. Water-resistant does not necessarily mean waterproof, and plant-based fabric does not guarantee a fully biodegradable finished cover."
+      ]
+    },
+    "269": {
+      "heading": "Hemp Twine: Packaging, Gardening, and Crafts",
+      "paragraphs": [
+        "Hemp twine is relatively thin cord made from spun or twisted hemp bast fibers. It is used in gardening, tying bundles, craftwork, decorative packaging, and other light-duty applications.",
+        "Thickness, ply count, twist, and fiber preparation determine breaking strength and handling. Twine intended for outdoor use may experience moisture-related stretching, rot, or weathering, while treated twine may contain coatings that change its environmental properties.",
+        "Food-contact, agricultural, and load-bearing applications have different requirements. Users should check product specifications rather than assume every hemp twine is untreated, compostable, or suitable for securing heavy objects."
+      ]
+    }
+  }
+}
