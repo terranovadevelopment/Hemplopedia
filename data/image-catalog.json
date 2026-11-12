@@ -1,248 +1,270 @@
 {
   "version": 1,
-  "description": "Editorial photo catalog. Entries with status needs_review are NOT approved photographs; populate photo_url and attribution after human verification.",
+  "description": "Editorial image catalog. Approved records have verified Commons file pages, descriptions and reuse terms; all others await image selection and review.",
   "entries": [
     {
       "id": 1,
       "category": "Agricultural",
       "topic": "hemp agricultural",
       "search": "hemp agricultural",
-      "photo_url": null,
-      "source_url": null,
-      "creator": null,
-      "license": null,
-      "status": "needs_review"
+      "photo_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Hemp-field-1080x720.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hemp-field-1080x720.jpg",
+      "creator": "Kifcure",
+      "license": "CC0 1.0",
+      "status": "approved",
+      "caption": "Mature industrial hemp field in Illinois"
     },
     {
       "id": 2,
       "category": "Agricultural",
       "topic": "hemp animal bedding",
-      "search": "hemp animal bedding",
+      "search": "livestock hemp bedding straw",
       "photo_url": null,
       "source_url": null,
       "creator": null,
       "license": null,
-      "status": "needs_review"
+      "status": "needs_review",
+      "review_note": "Topic-specific photograph and reuse license not yet verified; do not substitute unrelated image."
     },
     {
       "id": 3,
       "category": "Agricultural",
       "topic": "hemp botany",
       "search": "hemp botany",
-      "photo_url": null,
-      "source_url": null,
-      "creator": null,
-      "license": null,
-      "status": "needs_review"
+      "photo_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Hemp%20plants-cannabis%20sativa-single%201.JPG",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hemp_plants-cannabis_sativa-single_1.JPG",
+      "creator": "Nabokov",
+      "license": "Public domain",
+      "status": "approved",
+      "caption": "Industrial hemp plant, botanical form"
     },
     {
       "id": 4,
       "category": "Agricultural",
       "topic": "hemp compost",
-      "search": "hemp compost",
+      "search": "organic compost soil",
       "photo_url": null,
       "source_url": null,
       "creator": null,
       "license": null,
-      "status": "needs_review"
+      "status": "needs_review",
+      "review_note": "Topic-specific photograph and reuse license not yet verified; do not substitute unrelated image."
     },
     {
       "id": 5,
       "category": "Agricultural",
       "topic": "hemp crop rotation",
-      "search": "hemp crop rotation",
+      "search": "crop rotation agricultural field",
       "photo_url": null,
       "source_url": null,
       "creator": null,
       "license": null,
-      "status": "needs_review"
+      "status": "needs_review",
+      "review_note": "Topic-specific photograph and reuse license not yet verified; do not substitute unrelated image."
     },
     {
       "id": 6,
       "category": "Agricultural",
       "topic": "hemp decortication",
-      "search": "hemp decortication",
+      "search": "hemp decortication bast fiber machine",
       "photo_url": null,
       "source_url": null,
       "creator": null,
       "license": null,
-      "status": "needs_review"
+      "status": "needs_review",
+      "review_note": "Topic-specific photograph and reuse license not yet verified; do not substitute unrelated image."
     },
     {
       "id": 7,
       "category": "Agricultural",
       "topic": "hemp fields",
       "search": "hemp fields",
-      "photo_url": null,
-      "source_url": null,
-      "creator": null,
-      "license": null,
-      "status": "needs_review"
+      "photo_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Hemp%20plants-cannabis%20sativa-field.JPG",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hemp_plants-cannabis_sativa-field.JPG",
+      "creator": "Nabokov",
+      "license": "Public domain",
+      "status": "approved",
+      "caption": "Outdoor industrial hemp plantation"
     },
     {
       "id": 8,
       "category": "Agricultural",
       "topic": "hemp greenhouses",
-      "search": "hemp greenhouses",
+      "search": "industrial hemp greenhouse cultivation",
       "photo_url": null,
       "source_url": null,
       "creator": null,
       "license": null,
-      "status": "needs_review"
+      "status": "needs_review",
+      "review_note": "Topic-specific photograph and reuse license not yet verified; do not substitute unrelated image."
     },
     {
       "id": 9,
       "category": "Agricultural",
       "topic": "hemp harvesting",
-      "search": "hemp harvesting",
+      "search": "industrial hemp harvesting combine",
       "photo_url": null,
       "source_url": null,
       "creator": null,
       "license": null,
-      "status": "needs_review"
+      "status": "needs_review",
+      "review_note": "Topic-specific photograph and reuse license not yet verified; do not substitute unrelated image."
     },
     {
       "id": 10,
       "category": "Agricultural",
       "topic": "hemp irrigation",
-      "search": "hemp irrigation",
+      "search": "irrigation hemp field",
       "photo_url": null,
       "source_url": null,
       "creator": null,
       "license": null,
-      "status": "needs_review"
+      "status": "needs_review",
+      "review_note": "Topic-specific photograph and reuse license not yet verified; do not substitute unrelated image."
     },
     {
       "id": 11,
       "category": "Agricultural",
       "topic": "hemp leaves",
       "search": "hemp leaves",
-      "photo_url": null,
-      "source_url": null,
-      "creator": null,
-      "license": null,
-      "status": "needs_review"
+      "photo_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Hemp%20plants-cannabis%20sativa-single%202.JPG",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hemp_plants-cannabis_sativa-single_2.JPG",
+      "creator": "Nabokov",
+      "license": "Public domain",
+      "status": "approved",
+      "caption": "Industrial hemp foliage and plant"
     },
     {
       "id": 12,
       "category": "Agricultural",
       "topic": "hemp mulch",
-      "search": "hemp mulch",
+      "search": "hemp mulch garden",
       "photo_url": null,
       "source_url": null,
       "creator": null,
       "license": null,
-      "status": "needs_review"
+      "status": "needs_review",
+      "review_note": "Topic-specific photograph and reuse license not yet verified; do not substitute unrelated image."
     },
     {
       "id": 13,
       "category": "Agricultural",
       "topic": "hemp plant",
       "search": "hemp plant",
-      "photo_url": null,
-      "source_url": null,
-      "creator": null,
-      "license": null,
-      "status": "needs_review"
+      "photo_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Hemp%20plants-cannabis%20sativa-single%203.JPG",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hemp_plants-cannabis_sativa-single_3.JPG",
+      "creator": "Nabokov",
+      "license": "Public domain",
+      "status": "approved",
+      "caption": "Industrial hemp plant"
     },
     {
       "id": 14,
       "category": "Agricultural",
       "topic": "hemp planting",
-      "search": "hemp planting",
+      "search": "hemp seed planting tractor",
       "photo_url": null,
       "source_url": null,
       "creator": null,
       "license": null,
-      "status": "needs_review"
+      "status": "needs_review",
+      "review_note": "Topic-specific photograph and reuse license not yet verified; do not substitute unrelated image."
     },
     {
       "id": 15,
       "category": "Agricultural",
       "topic": "hemp pollen isolation",
-      "search": "hemp pollen isolation",
+      "search": "male cannabis pollen flowers",
       "photo_url": null,
       "source_url": null,
       "creator": null,
       "license": null,
-      "status": "needs_review"
+      "status": "needs_review",
+      "review_note": "Topic-specific photograph and reuse license not yet verified; do not substitute unrelated image."
     },
     {
       "id": 16,
       "category": "Agricultural",
       "topic": "hemp roots",
-      "search": "hemp roots",
+      "search": "hemp plant roots root system",
       "photo_url": null,
       "source_url": null,
       "creator": null,
       "license": null,
-      "status": "needs_review"
+      "status": "needs_review",
+      "review_note": "Topic-specific photograph and reuse license not yet verified; do not substitute unrelated image."
     },
     {
       "id": 17,
       "category": "Agricultural",
       "topic": "hemp soil aeration",
-      "search": "hemp soil aeration",
+      "search": "soil aeration agricultural machinery",
       "photo_url": null,
       "source_url": null,
       "creator": null,
       "license": null,
-      "status": "needs_review"
+      "status": "needs_review",
+      "review_note": "Topic-specific photograph and reuse license not yet verified; do not substitute unrelated image."
     },
     {
       "id": 18,
       "category": "Agricultural",
       "topic": "hemp soil improvement",
-      "search": "hemp soil improvement",
+      "search": "soil improvement cover crops",
       "photo_url": null,
       "source_url": null,
       "creator": null,
       "license": null,
-      "status": "needs_review"
+      "status": "needs_review",
+      "review_note": "Topic-specific photograph and reuse license not yet verified; do not substitute unrelated image."
     },
     {
       "id": 19,
       "category": "Agricultural",
       "topic": "hemp states",
-      "search": "hemp states",
+      "search": "US hemp agriculture state farm",
       "photo_url": null,
       "source_url": null,
       "creator": null,
       "license": null,
-      "status": "needs_review"
+      "status": "needs_review",
+      "review_note": "Topic-specific photograph and reuse license not yet verified; do not substitute unrelated image."
     },
     {
       "id": 20,
       "category": "Agricultural",
       "topic": "hemp stems",
-      "search": "hemp stems",
+      "search": "hemp stalk stems bast fibre",
       "photo_url": null,
       "source_url": null,
       "creator": null,
       "license": null,
-      "status": "needs_review"
+      "status": "needs_review",
+      "review_note": "Topic-specific photograph and reuse license not yet verified; do not substitute unrelated image."
     },
     {
       "id": 21,
       "category": "Agricultural",
       "topic": "hemp watering",
-      "search": "hemp watering",
+      "search": "watering hemp field irrigation",
       "photo_url": null,
       "source_url": null,
       "creator": null,
       "license": null,
-      "status": "needs_review"
+      "status": "needs_review",
+      "review_note": "Topic-specific photograph and reuse license not yet verified; do not substitute unrelated image."
     },
     {
       "id": 22,
       "category": "Agricultural",
       "topic": "hemp weed suppression",
-      "search": "hemp weed suppression",
+      "search": "hemp crop weed suppression",
       "photo_url": null,
       "source_url": null,
       "creator": null,
       "license": null,
-      "status": "needs_review"
+      "status": "needs_review",
+      "review_note": "Topic-specific photograph and reuse license not yet verified; do not substitute unrelated image."
     },
     {
       "id": 23,
