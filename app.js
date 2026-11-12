@@ -2,12 +2,74 @@
 const $=id=>document.getElementById(id), state={items:[],categories:[],category:null};
 const title=s=>String(s||'').replace(/\b\w/g,c=>c.toUpperCase());
 const photoQueries={'Agricultural':'industrial hemp field','Algae':'algae microscope','Automotive':'automotive manufacturing','Bamboo':'bamboo forest','Building Materials':'hempcrete building','Business':'hemp processing factory','Clothing':'hemp clothing','Consumer Textiles':'fabric weaving','Environmental':'natural green landscape','Flax':'flax flowers field','Food':'hemp seeds food','Free Energy':'wind turbines solar panels','Fresh Water':'fresh water river','Health Care':'medical laboratory','Housing':'hempcrete house','Industrial Products':'hemp fibre industrial','Industrial Textiles':'industrial weaving textile','Information':'library books','Kenaf':'kenaf plant','Legal':'courthouse','Marijuana':'cannabis plant','Other':'hemp plant','Paper':'handmade paper','Personal Hygiene':'natural soap','Pets and Livestock':'farm sheep','Plastics':'bioplastics','Processing challenges':'hemp fiber processing','Uses Flowers':'hemp flowers','Uses Leaves':'hemp leaves','Uses Roots':'plant roots soil','Uses Seeds':'hemp seeds','Uses Stalk':'hemp stalks'};
-const overrides={'hemp animal bedding':'animal bedding farm barn','hemp agricultural':'industrial hemp field','hemp botany':'cannabis sativa leaves','hemp compost':'compost soil','hemp crop rotation':'crop field','hemp decortication':'hemp fibers','hemp fields':'industrial hemp field'};
+const overrides={
+'hemp animal bedding':'cow resting on straw bedding barn',
+'hemp agricultural':'industrial hemp cultivation field',
+'hemp botany':'cannabis sativa botanical plant',
+'hemp compost':'compost soil organic matter',
+'hemp crop rotation':'agricultural crop rotation field',
+'hemp decortication':'hemp bast fibre processing',
+'hemp fields':'industrial hemp plants field',
+'hemp greenhouses':'greenhouse growing plants',
+'hemp harvesting':'hemp harvest farm machinery',
+'hemp irrigation':'agricultural irrigation field',
+'hemp mulch':'mulch garden soil',
+'hemp pollen isolation':'cannabis male pollen flower',
+'hemp soil aeration':'soil cultivation plough',
+'hemp soil improvement':'healthy agricultural soil',
+'hemp weed suppression':'hemp field crop canopy',
+'hemp planting':'planting hemp seeds',
+'hemp watering':'watering plants field',
+'hemp roots':'cannabis roots',
+'hemp stems':'hemp stalk fibre',
+'hemp leaves':'cannabis sativa leaves',
+'algae biofuel production':'algae bioreactor',
+'algae wastewater treatment':'algae wastewater treatment pond',
+'algae water purification':'algae water filtration',
+'hemp automotive biocomposite panels':'natural fibre composite car interior',
+'hemp automotive body parts':'automotive composite car body',
+'hemp automotive cabin insulation':'automotive interior insulation'
+};
 const cache=new Map(),pending=new Map();
-function query(category,topic){if(!topic)return photoQueries[category]||'hemp plant';const t=topic.toLowerCase();return overrides[t]||t+' photograph'}
-async function photo(q){if(cache.has(q))return cache.get(q);if(pending.has(q))return pending.get(q);const p=(async()=>{try{const url='https://commons.wikimedia.org/w/api.php?'+new URLSearchParams({action:'query',generator:'search',gsrsearch:'filetype:bitmap '+q,gsrnamespace:'6',gsrlimit:'15',prop:'imageinfo',iiprop:'url|mime',iiurlwidth:'1100',format:'json',origin:'*'});const res=await fetch(url);if(!res.ok)throw Error('photo request');const data=await res.json();const words=q.toLowerCase().split(/\W+/).filter(w=>w.length>3&&w!=='photograph');const matches=Object.values(data.query?.pages||{}).filter(x=>x.imageinfo?.[0]?.thumburl&&/^image\/(jpeg|png|webp)$/.test(x.imageinfo[0].mime)&&!/(icon|logo|diagram|drawing|painting|map|poster|symbol|flag|svg)/i.test(x.title));matches.sort((a,b)=>words.filter(w=>b.title.toLowerCase().includes(w)).length-words.filter(w=>a.title.toLowerCase().includes(w)).length);if(!matches.length||!words.some(w=>matches[0].title.toLowerCase().includes(w)))return null;return matches[0].imageinfo[0].thumburl}catch{return null}})();pending.set(q,p);const result=await p;pending.delete(q);cache.set(q,result);return result}
+const irrelevant=/(icon|logo|diagram|drawing|painting|map|poster|symbol|flag|svg|historic building|church|temple|castle|monument|portrait|statue|coat of arms|book cover)/i;
+const common=new Set(['hemp','photograph','photo','industrial','natural','plant','plants','the','and','with','production','product','products','material','materials']);
+function query(category,topic){
+ if(!topic)return photoQueries[category]||'hemp plant';
+ const t=topic.toLowerCase().trim();
+ if(overrides[t])return overrides[t];
+ const base=t.replace(/^hemp /,'').replace(/\b(uses|use of|applications of)\b/g,'').trim();
+ if(category==='Algae')return 'algae '+base;
+ if(category==='Bamboo')return 'bamboo '+base;
+ if(category==='Flax')return 'flax '+base;
+ if(category==='Kenaf')return 'kenaf '+base;
+ if(category==='Marijuana')return 'cannabis '+base;
+ return (base==='hemp'?'industrial hemp':base+' hemp').trim();
+}
+function keywords(q){return q.toLowerCase().split(/[^a-z0-9]+/).filter(w=>w.length>3&&!common.has(w))}
+async function photo(q){
+ if(cache.has(q))return cache.get(q);
+ if(pending.has(q))return pending.get(q);
+ const p=(async()=>{
+  try{
+   const words=keywords(q);
+   const searches=[q,words.join(' ')];
+   for(const search of [...new Set(searches)]){
+    if(!search)continue;
+    const url='https://commons.wikimedia.org/w/api.php?'+new URLSearchParams({action:'query',generator:'search',gsrsearch:'filetype:bitmap '+search,gsrnamespace:'6',gsrlimit:'30',prop:'imageinfo',iiprop:'url|mime',iiurlwidth:'650',format:'json',origin:'*'});
+    const res=await fetch(url,{mode:'cors'});if(!res.ok)continue;
+    const data=await res.json();
+    const matches=Object.values(data.query?.pages||{}).filter(x=>x.imageinfo?.[0]?.thumburl&&/^image\/(jpeg|png|webp)$/.test(x.imageinfo[0].mime)&&!irrelevant.test(x.title));
+    const scored=matches.map(x=>{const t=x.title.toLowerCase().replace(/[_-]/g,' ');const hits=words.filter(w=>t.includes(w)).length;const score=hits*5+(t.includes('hemp')&&q.includes('hemp')?2:0)-(t.includes('building')&&!/build|house|architect|construct/.test(q)?8:0);return {x,score,hits}}).sort((a,b)=>b.score-a.score);
+    const best=scored.find(v=>v.hits>0&&v.score>=5);
+    if(best)return best.x.imageinfo[0].thumburl;
+   }
+  }catch(err){console.warn('Photo lookup unavailable',q,err)}
+  return null;
+ })();
+ pending.set(q,p);try{const result=await p;cache.set(q,result);return result}finally{pending.delete(q)}
+}
 function art(category,topic='',small=false){const box=document.createElement('div');box.className='photo '+(small?'small':'');const label=document.createElement('span');label.textContent=topic||category;box.append(label);box.dataset.query=query(category,topic);box.dataset.fallback=query(category);return box}
-async function loadPhoto(box){if(box.dataset.loaded)return;box.dataset.loaded='1';const url=await photo(box.dataset.query)||await photo(box.dataset.fallback);if(!url||!box.isConnected)return;const img=document.createElement('img');img.alt=box.querySelector('span')?.textContent||'Hemp subject';img.loading='lazy';img.src=url;img.onerror=()=>img.remove();box.prepend(img)}
+async function loadPhoto(box){if(box.dataset.loaded)return;box.dataset.loaded='1';const url=await photo(box.dataset.query)||(box.classList.contains('small')?null:await photo(box.dataset.fallback));if(!url||!box.isConnected)return;const img=document.createElement('img');img.alt=box.querySelector('span')?.textContent||'Hemp subject';img.loading='lazy';img.src=url;img.onerror=()=>img.remove();box.prepend(img)}
 const observer='IntersectionObserver' in window?new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){observer.unobserve(e.target);loadPhoto(e.target)}}),{rootMargin:'250px'}):null;
 function watch(el){if(observer)observer.observe(el);else loadPhoto(el)}
 function view(which){for(const id of ['homeView','categoryView','articleView'])$(id).hidden=id!==which;window.scrollTo(0,0)}
