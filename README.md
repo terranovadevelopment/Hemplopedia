@@ -26,3 +26,7 @@ The initial Phase 1 extraction reported 711 entries, including 300 Legal entries
 - `build.py`: reproducible correction/conversion script (requires the Phase 1 files in `/mnt/data/hemplopedia_phase1`)
 
 The website is free to share; the original book's rights remain with its author. The donation link is https://buymeacoffee.com/billbuttso.
+
+
+## Version 1.1 - GitHub upload package
+All site files are at the ZIP root. Upload the contents of this ZIP (including the `data` directory) to the repository root. `data/catalog.json` and `data/categories.json` are required for search and browsing.

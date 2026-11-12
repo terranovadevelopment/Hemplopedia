@@ -1,0 +1,3 @@
+Hemplopedia Version 1.1
+GitHub/Render static website upload package
+2026-11-12
