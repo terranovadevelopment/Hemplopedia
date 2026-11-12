@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "description": "Four original Fresh Water articles for Hemplopedia. Educational drafts requiring source-by-source verification; not validated drinking-water treatment guidance.",
+  "articles": {
+    "204": {
+      "heading": "Fresh Water from Air: Atmospheric Water Harvesting",
+      "paragraphs": [
+        "Air contains water vapor, and atmospheric water harvesting technologies aim to collect some of it as liquid water. Common approaches include cooling humid air until moisture condenses and using sorbent materials that capture vapor and later release it for collection. These systems can be useful where suitable humidity, energy, and maintenance resources are available.",
+        "Condensation systems typically work best in warm, humid conditions; their yield can fall sharply in dry or cool air. Sorbent-based devices may operate in different humidity ranges, but they still need energy or heat to regenerate the capture material. Real-world water production depends on temperature, relative humidity, airflow, energy consumption, and equipment design.",
+        "Water collected from air is not automatically safe to drink. Contact surfaces, airborne contaminants, storage tanks, and microbial growth can affect quality, so potable systems require appropriate treatment, monitoring, and maintenance. Atmospheric harvesting is best evaluated by liters produced per unit of energy, local conditions, reliability, and total cost rather than claims of limitless water."
+      ]
+    },
+    "205": {
+      "heading": "Can Hemp Help Clean Contaminated Water?",
+      "paragraphs": [
+        "Hemp has been studied for several approaches to water cleanup, including the use of plant biomass to adsorb pollutants and the use of growing plants in phytoremediation. In adsorption studies, processed hemp fibers or hurd can bind some dissolved contaminants to their surfaces. In phytoremediation, plants may take up or immobilize certain substances under suitable growing conditions.",
+        "Effectiveness depends on the pollutant, its concentration, water chemistry, contact time, and the form of hemp material used. Results from laboratory solutions do not necessarily translate to complex industrial wastewater. Plants or adsorbents that accumulate hazardous substances also create a contaminated material stream that must be handled safely.",
+        "Hemp should therefore be viewed as a possible component of a treatment strategy, not a universal water purifier. Treatment projects need sampling, validated performance targets, safe management of spent biomass, and comparison with established methods. Drinking-water applications require separate proof that the finished water meets applicable safety standards."
+      ]
+    },
+    "206": {
+      "heading": "Hemp-Based Water Filters: Materials and Performance",
+      "paragraphs": [
+        "Hemp fibers, hemp-derived biochar, and activated carbon produced from hemp biomass can be investigated as components of water filters. Fibrous media may help trap suspended particles, while specially prepared carbon materials can adsorb certain dissolved organic compounds. The actual function depends on how the raw material is processed and integrated into a filter.",
+        "A useful filter must be designed around the contaminants it is intended to remove. Pore structure, flow rate, contact time, particle size, saturation, and regeneration determine performance. A hemp-based medium that removes a dye in a laboratory experiment may not remove bacteria, viruses, dissolved salts, or other hazardous chemicals from household drinking water.",
+        "Manufacturers should support removal claims with independent tests using relevant water-quality standards. Filter cartridges also require replacement schedules and controls against microbial growth or release of trapped contaminants. Hemp content alone does not establish that a filter makes water potable."
+      ]
+    },
+    "207": {
+      "heading": "Hemp and Water Pollution: Prevention and Remediation",
+      "paragraphs": [
+        "Hemp cultivation and manufacturing interact with water quality in several ways. Agricultural runoff can carry soil, nutrients, or crop-protection chemicals into waterways, while poorly managed retting and industrial processing can generate wastewater. These risks depend on farming practices, local hydrology, processing technology, and discharge controls.",
+        "Hemp-derived materials are also being explored for pollution mitigation. Plant fibers and biochar may serve as sorbents for selected contaminants, and carefully managed phytoremediation projects may help address some polluted soils or waters. Such approaches have limits: contaminants are often transferred into biomass or filter media rather than destroyed, and performance varies by site.",
+        "Responsible water management starts with pollution prevention, including erosion control, nutrient planning, efficient water use, and properly treated process effluent. Any remediation claim should be supported by measurements before and after treatment, safe disposal plans, and independent verification where public health is at stake."
+      ]
+    }
+  }
+}
