@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Agricultural",
+    "count": 22,
+    "source_page": 54
+  },
+  {
+    "name": "Algae",
+    "count": 18,
+    "source_page": 60
+  },
+  {
+    "name": "Automotive",
+    "count": 24,
+    "source_page": 65
+  },
+  {
+    "name": "Bamboo",
+    "count": 18,
+    "source_page": 72
+  },
+  {
+    "name": "Building Materials",
+    "count": 19,
+    "source_page": 77
+  },
+  {
+    "name": "Business",
+    "count": 18,
+    "source_page": 83
+  },
+  {
+    "name": "Clothing",
+    "count": 17,
+    "source_page": 88
+  },
+  {
+    "name": "Consumer Textiles",
+    "count": 7,
+    "source_page": 93
+  },
+  {
+    "name": "Environmental",
+    "count": 8,
+    "source_page": 96
+  },
+  {
+    "name": "Flax",
+    "count": 30,
+    "source_page": 99
+  },
+  {
+    "name": "Food",
+    "count": 19,
+    "source_page": 107
+  },
+  {
+    "name": "Free Energy",
+    "count": 3,
+    "source_page": 112
+  },
+  {
+    "name": "Fresh Water",
+    "count": 4,
+    "source_page": 114
+  },
+  {
+    "name": "Health Care",
+    "count": 15,
+    "source_page": 116
+  },
+  {
+    "name": "Housing",
+    "count": 23,
+    "source_page": 120
+  },
+  {
+    "name": "Industrial Products",
+    "count": 14,
+    "source_page": 126
+  },
+  {
+    "name": "Industrial Textiles",
+    "count": 10,
+    "source_page": 130
+  },
+  {
+    "name": "Information",
+    "count": 10,
+    "source_page": 133
+  },
+  {
+    "name": "Kenaf",
+    "count": 28,
+    "source_page": 136
+  },
+  {
+    "name": "Legal",
+    "count": 100,
+    "source_page": 144
+  },
+  {
+    "name": "Marijuana",
+    "count": 8,
+    "source_page": 150
+  },
+  {
+    "name": "Other",
+    "count": 6,
+    "source_page": 153
+  },
+  {
+    "name": "Paper",
+    "count": 9,
+    "source_page": 155
+  },
+  {
+    "name": "Personal Hygiene",
+    "count": 5,
+    "source_page": 158
+  },
+  {
+    "name": "Pets and Livestock",
+    "count": 6,
+    "source_page": 160
+  },
+  {
+    "name": "Plastics",
+    "count": 23,
+    "source_page": 162
+  },
+  {
+    "name": "Processing challenges",
+    "count": 11,
+    "source_page": 169
+  },
+  {
+    "name": "Uses Flowers",
+    "count": 6,
+    "source_page": 173
+  },
+  {
+    "name": "Uses Leaves",
+    "count": 7,
+    "source_page": 175
+  },
+  {
+    "name": "Uses Roots",
+    "count": 8,
+    "source_page": 178
+  },
+  {
+    "name": "Uses Seeds",
+    "count": 7,
+    "source_page": 181
+  },
+  {
+    "name": "Uses Stalk",
+    "count": 8,
+    "source_page": 184
+  }
+]
