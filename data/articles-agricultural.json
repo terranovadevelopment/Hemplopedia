@@ -1,0 +1,182 @@
+{
+  "version": 1,
+  "description": "Individually authored editorial articles for the 22 Agricultural topics; factual overviews, not a substitute for local agronomic advice.",
+  "articles": {
+    "1": {
+      "heading": "Industrial Hemp as an Agricultural Crop",
+      "paragraphs": [
+        "Industrial hemp is a cultivated form of Cannabis sativa grown for stalk fiber, grain, seed oil, or other permitted products. The crop's intended market influences cultivar selection, planting density, harvest timing, and processing equipment.",
+        "Fiber hemp is commonly grown at relatively high density to encourage long, less-branched stems. Grain hemp is usually managed to support seed production and timely harvest. Dual-purpose systems are possible but require compromises between seed maturity and fiber quality.",
+        "Hemp is not automatically profitable or environmentally beneficial. Farmers need suitable genetics, lawful production arrangements, tested harvest methods, drying or storage capacity, and a reliable buyer. Soil, climate, labor, and local regulations shape whether hemp fits a farm."
+      ]
+    },
+    "2": {
+      "heading": "Hemp Hurd as Animal Bedding",
+      "paragraphs": [
+        "The woody inner core of hemp stalks, often called hurd or shiv, can be processed into bedding for horses, poultry, and other housed animals. The material is valued for absorbency and can be supplied as loose particles or formulated bedding products.",
+        "Good bedding must manage moisture while remaining comfortable and safe for animals. Particle size, dust content, cleanliness, storage conditions, and how often bedding is changed affect performance. Hemp hurd may be mixed with manure and composted after use where appropriate.",
+        "Claims that hemp bedding is always dust-free, antimicrobial, or superior to straw and wood shavings need product-specific testing. Buyers should compare cost per stall or animal, actual absorption, handling, disposal, and any species-specific husbandry requirements."
+      ]
+    },
+    "3": {
+      "heading": "Botany of the Hemp Plant",
+      "paragraphs": [
+        "Hemp belongs to Cannabis sativa, an annual flowering plant. Its main structures include a taproot with lateral roots, fibrous stems, palmately compound leaves, and reproductive flowers. Different cultivars vary in height, branching, maturity, and chemical profile.",
+        "Cannabis plants may bear male and female flowers on separate plants, although breeding has produced other reproductive patterns. Wind-borne pollen can fertilize female flowers. Photoperiod sensitivity means day length influences flowering in many varieties, making cultivar choice important across latitudes.",
+        "Industrial hemp is defined by applicable legal rules, not simply by appearance. Botanical identity does not by itself establish legal THC compliance; growers must follow jurisdiction-specific sampling, testing, and licensing requirements."
+      ]
+    },
+    "4": {
+      "heading": "Composting Hemp Residues",
+      "paragraphs": [
+        "Leaves, roots, and chopped stalk residues can contribute organic material to composting systems. Hemp hurd also appears in used animal bedding, where it may be combined with manure before composting.",
+        "Composting depends on microbial decomposition under suitable oxygen, moisture, and temperature conditions. Woody stalks and hurd contain substantial structural carbohydrates and may break down more slowly than fresh green material. Shredding, turning, and balancing carbon-rich material with nitrogen-rich inputs can improve decomposition.",
+        "Finished compost should be sufficiently stabilized before application to sensitive crops. Growers should account for any contaminants, crop-protection residues, or pathogens in the incoming material and follow local rules for compost handling and land application."
+      ]
+    },
+    "5": {
+      "heading": "Hemp in Crop Rotations",
+      "paragraphs": [
+        "Crop rotation means growing different crops in sequence rather than repeatedly planting the same crop on the same land. Hemp may fit a rotation with cereals, legumes, and other crops, depending on local agronomy and markets.",
+        "A rapidly developing hemp canopy can compete with some weeds, while the crop's rooting and residue patterns differ from those of other rotation partners. These characteristics may contribute to a more diverse farming system, but results depend on planting date, soil fertility, cultivar, and harvest practices.",
+        "Rotation planning must consider shared pests, herbicide carryover, nutrient removal, equipment availability, and whether the hemp harvest leaves adequate residue. Multi-year field records are needed before claiming improvements in soil health or yields of subsequent crops."
+      ]
+    },
+    "6": {
+      "heading": "Decortication: Separating Hemp Fiber and Hurd",
+      "paragraphs": [
+        "Decortication is the mechanical separation of the outer bast fibers from the woody inner core of hemp stalks. It is a key processing step for converting harvested hemp into materials for textiles, insulation, composites, and animal bedding.",
+        "Stalks may first be dried, cut, or retted to help loosen bonds between tissues. Decorticators then break or crush the stalk and use mechanical separation and cleaning to produce fiber and hurd streams. Fiber length, cleanliness, moisture, and the amount of remaining woody material determine downstream suitability.",
+        "Textile-grade fiber often needs additional refinement beyond primary decortication. Equipment throughput, energy use, maintenance, dust control, and transportation distance can strongly influence processing economics."
+      ]
+    },
+    "7": {
+      "heading": "Managing Industrial Hemp Fields",
+      "paragraphs": [
+        "Hemp fields are managed differently depending on whether the desired harvest is fiber, seed, or another legally permitted product. Field selection starts with drainage, soil condition, weed pressure, and access to planting and harvesting equipment.",
+        "Uniform emergence helps produce an even stand. Fiber production often favors relatively dense planting, whereas seed crops may require more space for branching and maturation. Nutrient supply, rainfall, weeds, pests, and lodging all affect field performance.",
+        "A field that looks vigorous is not necessarily a profitable crop. Producers should monitor plant development, quality specifications, THC compliance where required, and the timing of harvesting and delivery to processors."
+      ]
+    },
+    "8": {
+      "heading": "Hemp Cultivation in Greenhouses",
+      "paragraphs": [
+        "Greenhouses provide a more controlled environment for starting plants, maintaining breeding stock, or producing specialized cannabis crops where permitted. They can regulate temperature, ventilation, humidity, and supplemental lighting more precisely than open fields.",
+        "For industrial hemp grown primarily for bulk stalk fiber or grain, greenhouse production is generally much more expensive than field cultivation. Protected cultivation is more plausible for propagation, research, seed production, and high-value specialized markets.",
+        "Disease pressure can increase when humidity and airflow are poorly managed. Operators must consider electricity, water, labor, sanitation, pest control, and licensing rules before assuming protected cultivation will be economically viable."
+      ]
+    },
+    "9": {
+      "heading": "Harvesting Hemp for Fiber and Grain",
+      "paragraphs": [
+        "Harvest timing is determined by the intended product. Fiber growers often seek suitable stem maturity and fiber characteristics, while grain growers need sufficiently mature seeds with manageable harvest losses.",
+        "Tall, tough stalk fibers can wrap around moving machinery and complicate cutting, conveying, and baling. Specialized headers, sharp cutting components, and appropriate field drying or retting practices may be necessary. Seed crops require careful combine adjustment and rapid postharvest handling to reduce spoilage.",
+        "Harvest planning should begin before planting. A producer needs access to suitable machinery, labor, storage, transport, and a processor willing to accept the crop in the required condition."
+      ]
+    },
+    "10": {
+      "heading": "Irrigation Requirements for Hemp",
+      "paragraphs": [
+        "Hemp uses water throughout germination, vegetative growth, and reproductive development. Its irrigation needs depend on rainfall, temperature, soil water-holding capacity, plant density, and the intended product.",
+        "Adequate moisture is especially important for establishment and during periods of rapid growth. Water stress can reduce biomass or seed yield, while excessive irrigation may promote waterlogging, nutrient loss, and root disease. Scheduling should reflect measured soil moisture and local evapotranspiration conditions.",
+        "Descriptions of hemp as drought-resistant should not be interpreted to mean that all hemp crops thrive without irrigation. The relevant question is how much supplemental water a particular crop needs to meet its yield and quality targets in a specific location."
+      ]
+    },
+    "11": {
+      "heading": "Leaves of the Hemp Plant",
+      "paragraphs": [
+        "Hemp leaves are typically palmately compound, with several narrow leaflets radiating from a central point. They perform photosynthesis, exchanging gases and converting sunlight into chemical energy that supports growth.",
+        "Leaf appearance varies with cultivar, age, nutrition, light, and plant health. Yellowing, spotting, curling, or unusual coloration may indicate stress but does not identify a cause by itself. Nutrient imbalance, pests, disease, drought, and environmental injury can produce overlapping symptoms.",
+        "Leaves may remain as field residues or enter specialized processing streams where lawful. Any proposed food, feed, medicinal, or extraction use requires attention to product safety and applicable regulations."
+      ]
+    },
+    "12": {
+      "heading": "Hemp-Based Mulch",
+      "paragraphs": [
+        "Mulch is a protective layer placed on soil to moderate temperature, reduce evaporation, and suppress some weeds. Chopped hemp stalks or processed hurd may be used as a plant-based mulch where suitable.",
+        "Particle size and layer thickness affect how the mulch behaves. A loose organic layer can reduce direct sunlight reaching the soil surface, but very thick layers may impede water infiltration or create unfavorable conditions around plant stems. Woody materials decompose gradually and can change soil nitrogen dynamics near the surface.",
+        "Mulch should be free from unwanted seeds, contaminants, and problematic residues. Its value should be judged by performance, local availability, transport costs, and comparison with other organic mulches."
+      ]
+    },
+    "13": {
+      "heading": "Anatomy and Growth of Industrial Hemp",
+      "paragraphs": [
+        "Industrial hemp is an annual crop grown from seed or propagated plants. It develops a root system, upright stems, leaves, and reproductive structures over a growing season. Growth habit differs markedly among fiber, grain, and other cultivars.",
+        "The stem contains outer bast fibers and an inner woody core. These tissues support very different industrial products. Plant height and stem thickness respond to genetics, planting density, fertility, water, and light.",
+        "Because different markets require different plant characteristics, there is no single ideal hemp plant. A tall fiber cultivar may not be the best choice for grain yield, and a plant bred for specialized flowers may be poorly suited to bulk fiber production."
+      ]
+    },
+    "14": {
+      "heading": "Planting Hemp Successfully",
+      "paragraphs": [
+        "Successful hemp planting begins with a suitable seedbed, viable seed, appropriate cultivar, and soil temperatures favorable for germination. Planting depth and seeding rate should be adapted to soil texture, moisture, and the crop's intended use.",
+        "Fiber and grain crops are often seeded at different densities. Uniform emergence reduces gaps that allow weeds to establish. Poor seed-to-soil contact, crusting, excess moisture, or planting too deeply can reduce stand establishment.",
+        "Growers should use locally appropriate agronomic recommendations, verify seed quality and legality, and ensure that a market and harvest plan exist before committing acreage."
+      ]
+    },
+    "15": {
+      "heading": "Pollen Movement and Isolation in Hemp",
+      "paragraphs": [
+        "Hemp pollen is primarily dispersed by wind. Pollen from male flowers can fertilize receptive female flowers, producing seed and influencing the genetics of the resulting crop.",
+        "This matters for seed production, breeding programs, and growers seeking to limit unwanted pollination. Isolation distance, surrounding crops, prevailing winds, flowering overlap, and the presence of volunteer plants all influence cross-pollination risk.",
+        "No single separation distance guarantees zero pollen movement under every condition. Seed producers should use applicable certification standards and field monitoring, while growers must understand how nearby cannabis cultivation could affect their intended product."
+      ]
+    },
+    "16": {
+      "heading": "Hemp Roots and Soil Interaction",
+      "paragraphs": [
+        "Hemp develops a primary root and lateral roots that absorb water and nutrients while anchoring the plant. Root growth depends on soil depth, texture, compaction, moisture, and cultivar.",
+        "Roots create pathways through soil and contribute organic material when they die and decompose. These processes can support soil biological activity, but claims that hemp automatically breaks up all compacted soils or remediates polluted land are too broad.",
+        "Root-zone management includes maintaining drainage, avoiding severe compaction, and matching irrigation and fertility to crop demand. Any use of hemp for phytoremediation needs contaminant-specific research and a safe plan for handling harvested biomass."
+      ]
+    },
+    "17": {
+      "heading": "Soil Aeration in Hemp Production",
+      "paragraphs": [
+        "Soil aeration is the exchange of gases between soil pores and the atmosphere. Roots and beneficial soil organisms need adequate oxygen, and waterlogged or compacted soils can restrict it.",
+        "Hemp generally benefits from a well-structured, adequately drained root zone. Excessive tillage can temporarily loosen soil but may also damage soil structure and increase erosion. Cover crops, controlled traffic, and organic matter management can improve conditions over time.",
+        "Deep-rooted crops may influence soil pore networks, but results vary by soil type and management. Measurements of bulk density, infiltration, drainage, and root growth are more reliable than claims based on crop identity alone."
+      ]
+    },
+    "18": {
+      "heading": "Hemp and Long-Term Soil Improvement",
+      "paragraphs": [
+        "Hemp can be one component of a soil-management program designed to protect topsoil, maintain biological activity, and support crop productivity. Its canopy, roots, and residues may influence soil processes during and after the growing season.",
+        "The outcome depends on whether residues are returned, how frequently soil is tilled, the rotation sequence, fertilizer inputs, and erosion control. Removing most aboveground biomass for industrial use changes the amount of organic material returned to the field.",
+        "Claims of carbon sequestration or soil regeneration require measurements over time and a clear accounting of management practices. Hemp is a potentially useful rotation crop, not a substitute for sound soil stewardship."
+      ]
+    },
+    "19": {
+      "heading": "Hemp Cultivation Across U.S. States",
+      "paragraphs": [
+        "Industrial hemp cultivation in the United States is governed by federal requirements together with state or tribal production programs. Rules may address licensing, registration, sampling, THC testing, crop disposal, and recordkeeping.",
+        "Growing conditions and economic opportunities differ widely among states. Northern and southern regions have different day lengths, frost risks, water availability, and suitable cultivars. Processing capacity and transport distance can be as important as climate in determining whether production is practical.",
+        "Because laws and administrative programs can change, growers should check current USDA guidance and the responsible state or tribal authority before planting. A state being legally open to hemp cultivation does not guarantee a viable market."
+      ]
+    },
+    "20": {
+      "heading": "Hemp Stems as an Industrial Resource",
+      "paragraphs": [
+        "The hemp stem contains long bast fibers near its outer surface and a woody inner core known as hurd or shiv. Separating these components allows a single crop to serve several industrial markets.",
+        "Bast fiber may be used in textiles, nonwoven mats, insulation, and composites. Hurd can be used in animal bedding, hemp-lime building materials, and other absorbent or lightweight products. Quality requirements differ: a textile spinner may need clean, fine fibers, while a bedding producer may prioritize particle size and low dust.",
+        "Stalk moisture, harvest timing, retting, storage, and decortication all influence value. Successful processing requires matching raw material specifications to an actual buyer."
+      ]
+    },
+    "21": {
+      "heading": "Watering Hemp Crops",
+      "paragraphs": [
+        "Watering practices must support seed germination, root establishment, and later growth without creating prolonged waterlogged conditions. Hemp responds to both moisture shortage and excess, with sensitivity varying by growth stage and production system.",
+        "Growers can schedule irrigation using soil-moisture sensors, weather data, crop observations, and local agronomic guidance. Drip, sprinkler, and other systems differ in labor, evaporation losses, energy demand, and suitability for field layout.",
+        "The objective is not simply to apply the least water possible but to use water efficiently while meeting crop needs. Irrigation should be evaluated alongside rainfall, drainage, soil texture, and the yield or quality required by the market."
+      ]
+    },
+    "22": {
+      "heading": "Weed Suppression in Hemp Fields",
+      "paragraphs": [
+        "A vigorous hemp stand can compete with weeds by intercepting sunlight and occupying growing space. This potential is often strongest in well-established, densely planted fiber crops.",
+        "Hemp does not suppress every weed under every condition. Slow emergence, uneven stands, low fertility, drought, and aggressive perennial weeds can reduce its competitive advantage. Grain hemp grown at lower density may provide less canopy closure than fiber hemp.",
+        "Weed management should combine field preparation, rotation, clean seed, timely planting, and monitoring. Claims that hemp eliminates herbicide use need to be tested against local weed pressure and the actual production system."
+      ]
+    }
+  }
+}
