@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "description": "9 original Paper articles for Hemplopedia; educational drafts pending source-by-source verification.",
+  "articles": {
+    "422": {
+      "heading": "Hemp, Bamboo, Wood, and Paper: Comparing Fiber Sources",
+      "paragraphs": [
+        "Paper can be made from cellulose-rich fibers obtained from wood, hemp, bamboo, and other plants. Each feedstock has different fiber dimensions, chemical composition, harvesting cycles, and processing requirements, which influence the properties and cost of finished paper.",
+        "Wood pulp dominates many paper markets because established forestry, mills, and recovery systems operate at large scale. Hemp provides bast fibers and shorter core fibers, while bamboo is a fast-growing grass whose fibers can be pulped using suitable equipment. Some papers blend multiple sources to achieve desired strength, formation, and printability.",
+        "Environmental comparisons should include land management, transport, pulping chemicals, water, energy, product lifespan, and recycling. Fast crop growth does not by itself prove that hemp or bamboo paper has a smaller environmental footprint than responsibly sourced wood or recycled paper."
+      ]
+    },
+    "423": {
+      "heading": "Hemp Cardboard and Paperboard",
+      "paragraphs": [
+        "Hemp-derived pulp can be incorporated into paperboard products such as cartons, stiff sheets, and corrugated packaging components. Manufacturers may blend hemp fibers with wood pulp or recycled fibers to achieve suitable strength, stiffness, and surface quality.",
+        "Board performance depends on fiber preparation, sheet formation, moisture content, adhesive systems, and the intended packaging design. Corrugated cardboard also requires a fluted medium and linerboards that perform reliably during folding, stacking, and transport.",
+        "Hemp cardboard is technically feasible, but competitive production requires dependable fiber supply and mill compatibility. Recyclability and environmental performance must be evaluated for the complete board, including coatings, inks, and adhesives."
+      ]
+    },
+    "424": {
+      "heading": "Hemp Filter Paper and Specialty Filtration Media",
+      "paragraphs": [
+        "Hemp cellulose fibers can be investigated for filter papers and specialty porous sheets. Filtration materials rely on controlled pore structure, fiber bonding, thickness, and resistance to the fluids or gases passing through them.",
+        "Different applications impose very different requirements: laboratory filtration may prioritize particle retention and chemical compatibility, while air filters need suitable pressure drop and dust-loading behavior. Food-contact or medical filtration requires additional purity and safety controls.",
+        "A paper made from hemp is not automatically an effective filter. Manufacturers must validate particle retention, flow rate, wet strength, contamination levels, and applicable standards for each intended use."
+      ]
+    },
+    "425": {
+      "heading": "Hemp Newsprint: Opportunities and Constraints",
+      "paragraphs": [
+        "Newsprint is a relatively inexpensive paper designed for high-speed printing and short-term use. Hemp fibers can be pulped and blended into paper formulations, but producing competitive newsprint requires the right balance of cost, opacity, formation, strength, and print performance.",
+        "Traditional newsprint production often relies on efficient mechanical or recycled-fiber processes. Hemp processing may require different equipment or preparation, and using premium long bast fibers in low-cost newsprint can be economically unattractive.",
+        "Hemp newsprint is a possible technical application rather than an established universal replacement for conventional newsprint. Its feasibility depends on pulp cost, mill infrastructure, availability, and the declining or changing demand for printed newspapers."
+      ]
+    },
+    "426": {
+      "heading": "Hemp Packaging Materials",
+      "paragraphs": [
+        "Hemp-derived fibers can be used in paper-based packaging, molded fiber products, protective wraps, and composite packaging components. Fiber selection and manufacturing methods vary according to whether the package must provide cushioning, rigidity, printability, or barrier protection.",
+        "Many packages also require coatings, adhesives, inks, and moisture barriers. These additions can improve performance but may complicate recycling or composting, so plant-based fiber content alone does not determine the package's end-of-life behavior.",
+        "Packaging design should consider product protection, weight, shipping efficiency, cost, food-contact requirements, and existing recovery systems. Environmental claims should compare the complete hemp package with realistic alternatives using lifecycle data."
+      ]
+    },
+    "427": {
+      "heading": "Hemp Paper: History, Production, and Properties",
+      "paragraphs": [
+        "Hemp has a long history as a source of papermaking fiber. Its bast fibers can be relatively long and strong, while the inner woody core provides shorter fibers with different characteristics. Both can contribute to paper products when appropriately processed.",
+        "Papermaking generally involves separating fibers, pulping, cleaning, and forming a wet sheet that is pressed and dried. The chosen pulping and bleaching methods influence yield, strength, color, chemical use, and wastewater treatment needs.",
+        "Hemp paper can serve specialty and conventional applications, but it is not automatically tree-free in every formulation or environmentally superior in every setting. Fiber sourcing, manufacturing efficiency, recycled content, and durability should guide comparisons."
+      ]
+    },
+    "428": {
+      "heading": "Hemp Printing Paper",
+      "paragraphs": [
+        "Printing paper must provide an appropriate surface for ink or toner, with controlled smoothness, opacity, brightness, stiffness, and dimensional stability. Hemp pulp can be incorporated into papers intended for printing, sometimes in blends with other fibers.",
+        "Long fibers may contribute strength, but paper formation and surface finishing are important for clean text and images. Coatings, sizing agents, and calendering can influence ink absorption, print sharpness, and compatibility with offset, inkjet, or laser processes.",
+        "Not every hemp paper works in every printer. Manufacturers should test dusting, feeding, curl, drying, and image quality, while buyers should check the paper's specifications and equipment compatibility."
+      ]
+    },
+    "429": {
+      "heading": "Hemp Shipping Packaging and Protective Materials",
+      "paragraphs": [
+        "Shipping packaging must protect goods from compression, vibration, drops, and environmental exposure. Hemp fibers can contribute to corrugated board, molded pulp inserts, padding, and other protective components when engineered for the intended shipment.",
+        "A successful design depends on cushioning curves, stacking strength, moisture sensitivity, package geometry, and the weight and fragility of the contents. Hemp fiber may be blended with other materials, and adhesives or coatings can affect recycling and disposal.",
+        "Businesses should validate packages through appropriate distribution and drop testing rather than assuming that natural fibers provide sufficient protection. Material costs, storage space, and the performance of the entire package determine commercial suitability."
+      ]
+    },
+    "430": {
+      "heading": "Hemp, Wood, and the Future of Papermaking",
+      "paragraphs": [
+        "Hemp and wood both supply cellulose fibers, but their production systems differ. Wood comes from managed forests and plantations with established pulp infrastructure, while hemp is an annual agricultural crop whose stalks require collection, drying, and specialized handling.",
+        "Hemp can diversify fiber supply and may be valuable in certain specialty papers or blended products. However, wood mills benefit from mature logistics and economies of scale, and recycled paper already plays a major role in many markets.",
+        "The future of sustainable paper is likely to involve multiple fiber sources, efficient mills, responsible forestry and agriculture, and stronger recycling systems. Replacing wood with hemp should be evaluated product by product rather than treated as an automatic environmental improvement."
+      ]
+    }
+  }
+}
