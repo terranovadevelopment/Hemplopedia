@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "description": "6 original Pets and Livestock articles; educational drafts requiring veterinary, feed-regulatory, and product-specific verification.",
+  "articles": {
+    "436": {
+      "heading": "Hemp Animal Bedding: Absorbency, Comfort, and Care",
+      "paragraphs": [
+        "Hemp animal bedding is commonly made from the chopped woody core, or hurd, of industrial hemp stalks. Properly processed hurd can absorb moisture and provide a bedding surface for horses, poultry, small mammals, and other animals. Particle size, cleanliness, and moisture content affect how a product performs.",
+        "Good bedding should be low in dust, free from mold and harmful residues, comfortable for the species, and practical to remove and replace. Absorbency does not eliminate the need for ventilation or regular cleaning; wet bedding can contribute to ammonia buildup and poor housing conditions.",
+        "Before switching bedding, owners should check the manufacturer's intended species, handling instructions, and any concerns about animals eating the material. Cost comparisons should include delivery, usage rate, waste volume, and disposal rather than price per bag alone."
+      ]
+    },
+    "437": {
+      "heading": "Hemp Animal Feed: Nutrition, Approval, and Safety",
+      "paragraphs": [
+        "Hempseed, hempseed meal, and hempseed oil contain nutrients that have attracted interest in animal nutrition research. Their protein and fat profiles vary by processing method, and potential uses differ among livestock, poultry, and companion animals.",
+        "Feed ingredients must be assessed for digestibility, nutritional balance, contaminants, and possible cannabinoid residues. The legal authorization of hemp-derived feed ingredients is species-specific and jurisdiction-specific; approval for one ingredient or species does not establish permission for all hemp materials or animal diets.",
+        "Farmers and feed manufacturers should verify current official feed rules and use qualified animal-nutrition guidance before including hemp products in rations. Hemp flowers, CBD extracts, and other cannabinoid-rich materials should not be treated as ordinary feed ingredients without appropriate safety and regulatory evidence."
+      ]
+    },
+    "438": {
+      "heading": "Hemp Birdseed: Seeds, Species, and Feeding Practices",
+      "paragraphs": [
+        "Hempseed has historically been used in some birdseed mixtures, and its oil and protein content make it a potentially energy-dense ingredient. Whether it is appropriate depends on the bird species, its nutritional requirements, and the product's preparation and quality.",
+        "Seeds should be clean, properly stored, and free from mold, pesticide residues, and other contaminants. Hempseed is not a complete diet for pet birds or wild birds, and excessive reliance on oily seeds can create nutritional imbalances in some species.",
+        "Bird owners should follow species-specific feeding advice and check local rules for hempseed sale and use. Seed intended for planting, industrial processing, or human consumption should not automatically be assumed suitable for birds."
+      ]
+    },
+    "439": {
+      "heading": "Hemp in Cat Food: Nutritional and Regulatory Questions",
+      "paragraphs": [
+        "Hemp-derived ingredients sometimes appear in discussions of cat food because hempseed contains fats and protein. Cats, however, are obligate carnivores and require carefully balanced diets containing essential nutrients such as taurine and appropriate animal-derived or otherwise nutritionally complete ingredients.",
+        "A small quantity of an approved plant ingredient does not make a diet complete, and hempseed oil cannot substitute for all essential nutrients. Cannabinoid products marketed for cats raise additional concerns about dose, toxicity, product consistency, and limited clinical evidence.",
+        "Cat owners should select complete and balanced foods appropriate for life stage and consult a veterinarian before adding supplements. Regulatory approval for hemp-derived pet-food ingredients must be checked for the specific product and location; CBD should not be assumed safe or authorized for feline feeding."
+      ]
+    },
+    "440": {
+      "heading": "Hemp in Dog Food: Ingredients, Claims, and Safety",
+      "paragraphs": [
+        "Hempseed-derived oil, protein, or meal may be considered for certain dog-food formulations, subject to applicable feed regulations and nutritional testing. These ingredients differ substantially from CBD oils or cannabis extracts marketed for calming, pain, or other purposes.",
+        "Dogs need complete and balanced nutrition, and a single plant ingredient cannot establish a food's overall quality. Cannabinoid exposure can cause adverse effects in dogs, and THC-containing cannabis products can produce serious poisoning. Claims that CBD treats canine conditions require reliable clinical evidence and regulatory scrutiny.",
+        "Owners should avoid giving dogs human cannabis edibles or unverified cannabinoid supplements and should contact a veterinarian promptly after suspected intoxication. Any hemp ingredient in commercial dog food should have documented safety, quality, and lawful use for that application."
+      ]
+    },
+    "441": {
+      "heading": "Hemp Pet Litter: Absorbent Plant-Based Materials",
+      "paragraphs": [
+        "Hemp pet litter is typically manufactured from processed hemp hurd or other stalk-derived particles. It may be marketed for cats and small animals as an alternative to clay, wood, or paper-based litter, with performance influenced by particle size and processing.",
+        "Important characteristics include moisture absorption, odor control, dust generation, tracking, clumping behavior, and ease of cleaning. Different animals have different sensitivities and litter habits, so a product suitable for a cat may not be appropriate for a rabbit, guinea pig, or other small pet.",
+        "Litter should be kept dry and replaced as needed, and owners should monitor animals that chew or ingest bedding. Environmental comparisons should account for farming, processing, transport, packaging, and disposal; plant-based litter is not automatically flushable or suitable for every composting system."
+      ]
+    }
+  }
+}
