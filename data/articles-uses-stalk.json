@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "description": "8 original Uses Stalk articles; educational drafts pending technical, building-code, environmental and product-safety source verification.",
+  "articles": {
+    "504": {
+      "heading": "Hemp Stalks in Bioplastics and Composite Materials",
+      "paragraphs": [
+        "Hemp stalks provide bast fibers and woody hurd that can be processed into fillers or reinforcement for polymer composites. These materials may be used in molded goods, panels, and selected automotive or construction components, depending on the resin and manufacturing process.",
+        "Hemp-reinforced plastics are not necessarily made from hemp-derived polymers. A conventional petroleum-based resin containing hemp fiber remains a composite with that resin's properties and disposal limitations. Fiber preparation, moisture control, and adhesion to the polymer affect performance.",
+        "Biodegradability, recyclability, strength, and carbon footprint must be evaluated for the finished formulation rather than inferred from plant content. Product development should include mechanical testing, lifecycle analysis, and realistic end-of-life planning."
+      ]
+    },
+    "505": {
+      "heading": "Hemp Stalk Fibers for Clothing",
+      "paragraphs": [
+        "The outer bast fibers of hemp stalks can be converted into yarns and fabrics for clothing. Processing typically involves separating fibers from woody material, cleaning and refining them, and preparing them for spinning, sometimes in blends with cotton or other fibers.",
+        "Fiber length, fineness, retting, and mechanical or chemical processing influence the feel and quality of the resulting textile. Hemp fabrics may be woven or knitted into shirts, trousers, outerwear, and other garments, but softness and drape vary considerably by construction and finishing.",
+        "Environmental claims about hemp clothing should consider cultivation, fiber processing, dyeing, laundering, garment longevity, and disposal. Hemp is a useful textile resource, but no fiber is automatically the lowest-impact option in every product."
+      ]
+    },
+    "506": {
+      "heading": "Hemp Stalk Fiber: Structure, Separation, and Uses",
+      "paragraphs": [
+        "Hemp stalks contain strong bast fibers in the outer portion of the stem and a woody inner core known as hurd. Bast fibers are used in textiles, cordage, nonwoven materials, and reinforcement products, while hurd serves different markets.",
+        "Harvest timing, retting, decortication, and subsequent cleaning determine fiber quality. Long, clean fibers may be valuable for spinning, while shorter or mixed fibers can be suitable for insulation mats, composites, or industrial nonwovens.",
+        "Processors must match fiber specifications to the intended buyer, including length, cleanliness, moisture, and consistency. Reliable markets require more than high crop yields: they also depend on suitable equipment, grading standards, and economical transport."
+      ]
+    },
+    "507": {
+      "heading": "Hemp Stalk Hurd in Hempcrete",
+      "paragraphs": [
+        "Hempcrete is a building material made by combining hemp hurd, the woody interior of the stalk, with a suitable mineral binder and water. It is used in some wall, floor, and roof assemblies, generally as a non-load-bearing insulating infill rather than as a substitute for structural concrete.",
+        "The material's properties depend on hurd grading, binder formulation, density, curing, moisture management, and installation quality. Hempcrete assemblies may offer useful thermal and moisture-buffering characteristics, but structural support and weather protection must be designed separately.",
+        "Projects require appropriate engineering, fire and thermal testing, and compliance with local building requirements. Carbon-storage claims should account for the entire assembly, binder production, construction process, and eventual end of life."
+      ]
+    },
+    "508": {
+      "heading": "Hemp Hurd: The Woody Core of the Stalk",
+      "paragraphs": [
+        "Hemp hurd, also called shiv in some markets, is the woody inner material separated from the stalk's outer bast fibers. It is commonly supplied as chips or particles and may be used in animal bedding, hemp-lime building materials, absorbents, and certain composite products.",
+        "Useful hurd specifications depend on particle size, dust content, moisture, cleanliness, and the amount of remaining bast fiber. Bedding buyers, construction-product manufacturers, and composite producers may require different grades, so one processing line does not automatically produce material suited to every market.",
+        "Hurd can create value from a portion of the stalk that differs from textile fiber, but commercial success requires reliable quality and customers. Storage and handling should minimize moisture damage, contamination, and airborne dust."
+      ]
+    },
+    "509": {
+      "heading": "Hemp Stalk Fibers in Building Insulation",
+      "paragraphs": [
+        "Hemp bast fibers can be processed into insulation batts, mats, or other fiber-based products for buildings. These products are distinct from hempcrete and may include binders or additional fibers to maintain shape and meet manufacturing requirements.",
+        "Insulation performance depends on product density, thickness, installation quality, and measured thermal conductivity. Moisture behavior, fire performance, pest resistance, and durability must be assessed for the complete building assembly rather than assumed from the use of hemp.",
+        "Builders should select products with appropriate test data and follow applicable building codes and installation instructions. Environmental comparisons should include manufacturing inputs, service life, and the building's overall energy performance."
+      ]
+    },
+    "510": {
+      "heading": "Hemp Stalks for Paper and Pulp",
+      "paragraphs": [
+        "Hemp stalks contain cellulose-bearing fibers that can be processed into pulp for certain paper and specialty products. Bast fibers and hurd have different characteristics, which influence pulping methods, sheet strength, texture, and intended use.",
+        "Producing paper requires fiber preparation, pulping, washing, sheet formation, drying, and sometimes bleaching or surface treatment. The costs and environmental impacts depend on chemicals, water use, energy, fiber recovery, and the available processing infrastructure.",
+        "Hemp paper can serve selected markets, but it is not inherently superior to all wood-based or recycled papers. A fair comparison considers yield, sourcing, manufacturing efficiency, recycled content, product performance, and disposal."
+      ]
+    },
+    "511": {
+      "heading": "Hemp Stalk Fibers for Rope and Cordage",
+      "paragraphs": [
+        "Hemp bast fiber has a long history of use in rope, twine, and cordage because long fibers can be spun and twisted into useful strands. Modern hemp cordage may be used in crafts, gardening, packaging, and specialized traditional applications.",
+        "Rope performance depends on fiber preparation, yarn construction, twist, diameter, moisture exposure, abrasion, and maintenance. Natural hemp rope can degrade under prolonged wet conditions or biological attack and may not match the performance of engineered synthetic ropes in demanding environments.",
+        "Any load-bearing or safety-critical use requires rope rated and tested for that application. Hemp cordage should not be assumed suitable for climbing, lifting, marine safety, or fall protection simply because of its historical use."
+      ]
+    }
+  }
+}
