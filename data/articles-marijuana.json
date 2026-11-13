@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "description": "8 original Marijuana encyclopedia articles; educational drafts requiring clinical, legal and financial source verification.",
+  "articles": {
+    "408": {
+      "heading": "Marijuana and Cancer: Evidence, Symptoms, and Unanswered Questions",
+      "paragraphs": [
+        "Cannabis and cannabinoids are being studied in cancer care, but laboratory findings should not be confused with evidence that cannabis treats or cures cancer in people. Experiments on cells and animals can identify potential mechanisms, yet they do not establish effective or safe cancer treatments.",
+        "Certain cannabinoid medicines have been used to manage chemotherapy-related nausea and vomiting in specific circumstances. Evidence for other symptoms, including pain, appetite loss, sleep difficulties, and anxiety, varies by outcome, product, and study quality. Cannabis can also cause adverse effects and interact with medicines.",
+        "Patients should discuss cannabinoid products with their oncology team, particularly during chemotherapy, immunotherapy, or other complex treatment. Cannabis should not replace evidence-based cancer therapy, and claims that it kills tumors in patients require rigorous clinical confirmation."
+      ]
+    },
+    "409": {
+      "heading": "Marijuana: The Plant, Products, and Effects",
+      "paragraphs": [
+        "Marijuana is a common term for cannabis cultivated or used for its psychoactive and other cannabinoid constituents. Cannabis products can contain varying amounts of tetrahydrocannabinol (THC), cannabidiol (CBD), terpenes, and other compounds, depending on the plant and manufacturing process.",
+        "THC can cause intoxication and alter perception, attention, memory, coordination, and reaction time. Cannabis may be smoked, vaporized, or consumed in foods, drinks, tinctures, and other formulations; onset and duration differ considerably by route.",
+        "Health and legal risks vary with product strength, frequency of use, age, pregnancy status, underlying conditions, and local law. Accurate information distinguishes cannabis flower from concentrated extracts and regulated medicines, rather than treating all marijuana products as interchangeable."
+      ]
+    },
+    "410": {
+      "heading": "Marijuana Laws: Medical, Adult-Use, and Federal Rules",
+      "paragraphs": [
+        "Marijuana laws vary widely among countries and within federal systems. Some jurisdictions permit specified medical uses, some regulate adult-use sales, and others prohibit possession, cultivation, or distribution. Rules can differ for personal possession, home growing, commercial licensing, and public consumption.",
+        "In the United States, state cannabis programs and federal controlled-substance rules are distinct legal frameworks. Product testing, packaging, advertising, taxation, employment rules, driving restrictions, and interstate commerce may each be governed separately.",
+        "Because laws and enforcement practices change, readers should consult current statutes and official regulators for the relevant jurisdiction and activity. This overview does not determine whether any particular cannabis product or transaction is currently legal."
+      ]
+    },
+    "411": {
+      "heading": "The Marijuana Munchies: Cannabis and Appetite",
+      "paragraphs": [
+        "The term munchies describes increased appetite or heightened interest in food that some people experience after consuming THC-containing cannabis. Cannabinoid signaling interacts with brain circuits involved in hunger, reward, smell, and food enjoyment.",
+        "The effect is not universal and can depend on dose, individual physiology, tolerance, and product composition. Increased appetite does not necessarily improve nutrition, and frequent intake of energy-dense snacks can have unwanted consequences.",
+        "Researchers have explored cannabinoids in conditions involving appetite loss, but treatment decisions require consideration of evidence, side effects, and alternatives. Persistent appetite or weight changes should be evaluated rather than self-treated solely with cannabis."
+      ]
+    },
+    "412": {
+      "heading": "Recreational Marijuana: Effects and Responsible Risk Awareness",
+      "paragraphs": [
+        "Recreational marijuana refers to cannabis used primarily for intoxication or enjoyment rather than a prescribed medical purpose. Experiences vary, and THC may produce relaxation or altered sensory perception as well as anxiety, panic, impaired judgment, and slowed reaction time.",
+        "Higher-potency products and concentrates can increase the risk of unpleasant effects. Edible cannabis may take longer to produce noticeable effects than inhaled products, increasing the risk of unintended overconsumption. Regular use can lead to cannabis use disorder in some people.",
+        "Driving or operating machinery while impaired is unsafe. Youth, pregnant people, and individuals with certain mental-health or cardiovascular vulnerabilities face particular concerns. Legal permission for adult use does not mean cannabis is risk-free."
+      ]
+    },
+    "413": {
+      "heading": "Marijuana Stocks: Understanding Cannabis Investments",
+      "paragraphs": [
+        "Publicly traded cannabis companies may operate cultivation facilities, retail stores, processing plants, pharmaceutical research programs, or ancillary businesses such as equipment and software. Their business models face very different costs and regulatory risks.",
+        "Investors should examine revenue quality, operating cash flow, debt, dilution, taxes, licensing exposure, and competition from illicit or unlicensed markets. Changes in cannabis regulation can alter valuations, but favorable headlines do not guarantee company profitability.",
+        "Cannabis stocks can be highly volatile, and a company's listing or promotional materials do not establish financial strength. Diversification, independent financial analysis, and attention to jurisdiction-specific rules are important; this article is educational and not investment advice."
+      ]
+    },
+    "414": {
+      "heading": "Marijuana Taxes: Revenue, Prices, and Public Policy",
+      "paragraphs": [
+        "Jurisdictions that regulate cannabis sales may levy excise taxes, retail sales taxes, cultivation taxes, or other fees. Tax structures can be based on retail price, product weight, potency, or combinations of these methods.",
+        "Cannabis tax revenue may support public services, administration, education, or community programs, depending on the law. Revenue projections can be uncertain because legal market size, consumer behavior, compliance costs, and competition from untaxed sales change over time.",
+        "Policymakers face tradeoffs: high taxes may raise revenue per legal sale but also increase retail prices and discourage movement away from illicit markets. Evaluating outcomes requires current budget records and market data rather than assuming legalization always produces a particular revenue total."
+      ]
+    },
+    "415": {
+      "heading": "Marijuana Therapy: Medical Uses and Clinical Evidence",
+      "paragraphs": [
+        "Cannabis-based therapies include standardized prescription cannabinoid medicines and other cannabis products used for symptom relief. These categories should not be conflated: medicines approved for specific indications undergo different testing and quality controls from many retail cannabis products.",
+        "Evidence for benefit varies by condition. Certain cannabinoid medicines have recognized uses in particular seizure disorders or chemotherapy-related nausea, while some cannabinoid formulations have been studied for chronic pain and spasticity with mixed or limited findings. Product composition and dose matter.",
+        "Potential harms include dizziness, sedation, cognitive impairment, dependence, and drug interactions. People considering cannabis-based treatment should review the evidence, legal status, and product quality with a qualified healthcare professional and should not discontinue established therapy without guidance."
+      ]
+    }
+  }
+}
