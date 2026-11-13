@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "description": "7 original Uses Leaves articles; educational drafts pending agricultural, medical, food-safety and regulatory source verification.",
+  "articles": {
+    "482": {
+      "heading": "Hemp Leaves as Biomass: Uses and Processing",
+      "paragraphs": [
+        "Hemp leaves are one component of the plant's aboveground biomass, alongside stems and flowers. Depending on harvest method and crop purpose, leaves may remain in the field, enter mixed biomass streams, or be collected for specific processing applications.",
+        "Leaf biomass contains moisture, minerals, organic matter, and variable amounts of secondary plant compounds. Drying, storage, contamination control, and separation from stems or flowers influence its usefulness as a processing feedstock. Wet leaves can spoil quickly if stored without adequate airflow or drying.",
+        "Potential uses include composting, soil amendments, and research into bio-based products, but economics depend on collection costs and available markets. A credible biomass plan should measure actual yields, composition, transport costs, and the environmental effects of removing residues from fields."
+      ]
+    },
+    "483": {
+      "heading": "Cannabinoids in Hemp Leaves",
+      "paragraphs": [
+        "Hemp leaves can contain cannabinoids, but their concentrations vary with plant genetics, maturity, growing conditions, and the part of the leaf being sampled. Glandular trichomes are generally more abundant on cannabinoid-rich flowers than on large fan leaves, so leaves should not be assumed to have the same chemical profile as flowers.",
+        "Cannabinoid analysis requires representative sampling and suitable laboratory methods. Drying and storage can affect the measured composition, while extracts may concentrate cannabinoids and contaminants. A label describing material as hemp leaf does not establish that it is free of THC.",
+        "Research into leaf-derived compounds should distinguish laboratory observations from demonstrated health benefits. Rules for handling, extracting, and marketing cannabinoids vary by jurisdiction, and any consumer product requires appropriate safety and legal review."
+      ]
+    },
+    "484": {
+      "heading": "Composting Hemp Leaves",
+      "paragraphs": [
+        "Hemp leaves can contribute organic matter to compost when mixed with suitable carbon-rich materials such as dry stalk fragments, straw, or other yard residues. As with other green plant material, moisture and the balance of nitrogen-rich and carbon-rich inputs influence decomposition.",
+        "Effective composting requires adequate aeration, moisture management, and attention to pile temperature. Large masses of wet leaves can compact and become anaerobic, causing odors and slowing decomposition. Diseased or contaminated crop residues may require special handling rather than routine composting.",
+        "Finished compost should be mature and appropriate for its intended soil use. Growers should check applicable rules for agricultural waste and cannabinoid-bearing plant material, and should not assume that composting eliminates every pesticide, pathogen, or regulated compound."
+      ]
+    },
+    "485": {
+      "heading": "Using Hemp Leaves as Mulch",
+      "paragraphs": [
+        "Hemp leaves left on the soil surface can act as a temporary organic mulch, helping cover exposed ground and contributing organic matter as they break down. Their relatively thin structure means they generally decompose faster than coarse woody mulches.",
+        "Mulch performance depends on layer thickness, climate, wind, and soil conditions. A thin leaf layer may offer limited weed suppression, while thick wet layers can mat together and restrict airflow. Combining leaves with coarser plant residues may improve coverage and handling.",
+        "Farmers should consider nutrient cycling, crop disease risks, and local regulations before moving hemp residues between sites. Leaving some biomass in the field can support soil management, but the best practice depends on the cropping system and measured outcomes."
+      ]
+    },
+    "486": {
+      "heading": "Hemp Leaf Supplements: Claims and Quality",
+      "paragraphs": [
+        "Hemp leaves are sometimes marketed as ingredients in powders, capsules, and other dietary products. Their composition differs from hempseed ingredients and can include plant pigments, fiber, and variable amounts of cannabinoids depending on cultivation and processing.",
+        "The presence of naturally occurring plant compounds does not establish that a supplement improves immunity, reduces inflammation, or treats disease. Product quality requires identity testing, contaminant controls, accurate labeling, and attention to interactions with medicines if cannabinoids are present.",
+        "Dietary supplement and food rules differ by country and by ingredient, particularly for cannabinoid-containing preparations. Consumers should not assume a hemp leaf supplement is legally authorized, clinically effective, or safe during pregnancy or alongside prescription medicines."
+      ]
+    },
+    "487": {
+      "heading": "Hemp Leaf Teas: Preparation and Safety",
+      "paragraphs": [
+        "Hemp leaf tea refers to an infusion made from dried or fresh hemp leaves, sometimes blended with other herbs. Flavor, aroma, and chemical composition vary with cultivar, leaf age, drying conditions, and the amount of floral material mixed into the leaves.",
+        "Cannabinoids are generally poorly soluble in plain water, so a tea's cannabinoid content cannot be inferred from the concentration in dry plant material. Nevertheless, mixtures containing flowers or extracts may deliver cannabinoids, and contaminants or poor storage can create additional safety concerns.",
+        "Hemp leaf tea should not be promoted as a proven treatment for insomnia, anxiety, pain, or other conditions. Food and cannabinoid regulations vary by location; consumers should verify product quality, legal status, and possible interactions before use."
+      ]
+    },
+    "488": {
+      "heading": "Hemp Leaves in Topical Products",
+      "paragraphs": [
+        "Hemp leaf material or extracts may be incorporated into cosmetic creams, lotions, masks, and other topical formulations. These ingredients are distinct from hempseed oil and from standardized cannabinoid preparations, and their composition can vary substantially.",
+        "Formulators must consider microbial contamination, pesticide residues, stability, skin irritation, preservation, and the compatibility of botanical extracts with the finished product. Processing and extraction methods influence which compounds enter a topical formula.",
+        "A hemp leaf topical is not automatically an effective treatment for eczema, pain, acne, or other medical conditions. Manufacturers should substantiate claims and follow applicable cosmetic or drug rules; users with sensitive skin should review ingredients and discontinue products that cause irritation."
+      ]
+    }
+  }
+}
